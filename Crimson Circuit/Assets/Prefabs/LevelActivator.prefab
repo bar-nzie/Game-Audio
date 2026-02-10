@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3523188962833278556
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1431699964899774764}
+  - component: {fileID: 3389219598219975791}
+  - component: {fileID: 1369067183495574272}
+  m_Layer: 9
+  m_Name: LevelActivator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1431699964899774764
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3523188962833278556}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 10, z: 0}
+  m_LocalScale: {x: 8, y: 20, z: 8}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &3389219598219975791
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3523188962833278556}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1369067183495574272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3523188962833278556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51a814b60859a214b97268bf3822f13f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EntryCollider: {fileID: 3433955336424831342, guid: 3ce119019fa8e274fb3142d51d566d67, type: 3}
+  ExitCollider: {fileID: 5629828043078057998, guid: dc049a0dc17523b45903c54339c6df3d, type: 3}
+  Gate: {fileID: 0}
+  spawners: []
+  enemies:
+  - {fileID: 1782165788815176583, guid: 51aebce38bc39874ab9237e7395a5df8, type: 3}
+  - {fileID: 5760220104700509866, guid: 198b8c56ed0573a418f25c2bf22aef51, type: 3}
+  - {fileID: 994448383599765414, guid: b9ae95a092ad10d49aa971ef427675ac, type: 3}
+  baseEnemy: {fileID: 5760220104700509866, guid: 198b8c56ed0573a418f25c2bf22aef51, type: 3}
+  flyingEnemy: {fileID: 1782165788815176583, guid: 51aebce38bc39874ab9237e7395a5df8, type: 3}
+  lightningEnemy: {fileID: 994448383599765414, guid: b9ae95a092ad10d49aa971ef427675ac, type: 3}
+  Zap: {fileID: 3149145663586861792, guid: 20671f85f31332e45b12baf29539011b, type: 3}
+  Big: {fileID: 3149145663586861792, guid: e3ff771c7fb8c3e479140aa023a9b1b4, type: 3}
+  Bullet: {fileID: 3149145663586861792, guid: 8d85333eff949a442ad0b1df740c3b2e, type: 3}
+  regen: {fileID: 4042448511839780699, guid: 9feeaca938a6f434d94eab9e05f82b37, type: 3}
+  levelCompletion: 0
+  openSpeed: 1
+  extraEnemy1: {fileID: 676169066892535333, guid: 1c235872ff69bfd458f49e04e6b19298, type: 3}
+  extraEnemy2: {fileID: 322107244569040251, guid: 9f7604842daebcc4b8f73be01c3f1a6e, type: 3}
+  difficultyScaleFactor: 1
+  isBoss: 0
+  bossPrefab: {fileID: 0}
+  bossSpawner: {fileID: 0}
+  UI: {fileID: 0}
+  score: {fileID: 0}
+  grenadeAbility: {fileID: 0}
+  audioSource: {fileID: 0}
