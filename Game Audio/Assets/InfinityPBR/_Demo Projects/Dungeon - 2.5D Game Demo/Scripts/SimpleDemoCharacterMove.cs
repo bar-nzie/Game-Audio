@@ -14,6 +14,7 @@ public class SimpleDemoCharacterMove : MonoBehaviour
     private Rigidbody rb;
     public Animator animator;
     public string animatorLocomotion = "Locomotion";
+    private bool useRootMotion;
 
     void Awake()
     { 
@@ -45,22 +46,24 @@ public class SimpleDemoCharacterMove : MonoBehaviour
         else
             moveSpeed = Mathf.MoveTowards(moveSpeed, 0f, speedRamp * Time.deltaTime);
         
-        //if (!useRootMotion)
-        //    transform.position += transform.forward * Time.deltaTime * moveSpeed;
+        if (!useRootMotion)
+            transform.position += transform.forward * Time.deltaTime * moveSpeed;
         if (animator)
             animator.SetFloat(animatorLocomotion, moveSpeed);
     }
 
     private void DoRotation()
     {
-        moveHor = 0;
         if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
             moveHor = -1;
-        if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
+        else if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
             moveHor = 1;
+        else moveHor = 0;
+        if (animator)
+            animator.SetFloat("Turn", moveHor);
 
         float rotationAmount = moveHor * rotationSpeed * Time.deltaTime;
         transform.Rotate(0f, rotationAmount, 0f, Space.Self);
-        
+
     }
 }
