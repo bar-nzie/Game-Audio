@@ -187,6 +187,7 @@ MonoBehaviour:
   MasterBanks:
   - Master
   Banks:
+  - Droplet
   - FogGate
   - Whispers
   BanksToLoad: []

@@ -43,10 +43,10 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639081337208681122
+  lastModified: 639081359590193269
   FileSizes:
   - Name: Desktop
-    Value: 998
+    Value: 1136
   Exists: 1
 --- !u!114 &-7784203720568537425
 MonoBehaviour:
@@ -115,6 +115,34 @@ MonoBehaviour:
   - Name: Desktop
     Value: 1225280
   Exists: 1
+--- !u!114 &-2317256447666900666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambients/Droplet
+  m_EditorClassIdentifier: 
+  Path: event:/Ambients/Droplet
+  Guid:
+    Data1: 913608671
+    Data2: 1255329900
+    Data3: 662011281
+    Data4: 212238614
+  Banks:
+  - {fileID: 8090480912218261074}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 3962121429962254464}
+  MinDistance: 2
+  MaxDistance: 20
+  Length: 499
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -132,21 +160,25 @@ MonoBehaviour:
   - {fileID: 5588109215525101814}
   - {fileID: -6080971659994598275}
   - {fileID: -7784203720568537425}
+  - {fileID: 8090480912218261074}
   EditorEvents:
   - {fileID: -9196877907099755918}
   - {fileID: -7739583128183549352}
+  - {fileID: -2317256447666900666}
   EditorParameters: []
   MasterBanks:
   - {fileID: 5588109215525101814}
   StringsBanks:
   - {fileID: -8813388798407908523}
   cacheVersion: 131858
-  cacheTime: 639081337209534284
+  cacheTime: 639081359590487196
   SerializableEventsDict:
   - key: event:/Ambients/Dungeon_Whispers
     index: 0
   - key: event:/Ambients/Fog Gate
     index: 1
+  - key: event:/Ambients/Droplet
+    index: 2
 --- !u!114 &2337504322761357083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -171,6 +203,30 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &3962121429962254464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Droplet/Distance
+  m_EditorClassIdentifier: 
+  Name: Distance
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 906873558
+    data2: 3755746921
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &5588109215525101814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -186,8 +242,28 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639081337208674889
+  lastModified: 639081359590187021
   FileSizes:
   - Name: Desktop
     Value: 1074
+  Exists: 1
+--- !u!114 &8090480912218261074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Droplet.bank
+  m_EditorClassIdentifier: 
+  Path: ../Game Audio FMOD/Build/Desktop/Droplet.bank
+  Name: Droplet
+  StudioPath: bank:/Ambient/Droplet
+  lastModified: 639081359590487196
+  FileSizes:
+  - Name: Desktop
+    Value: 9760
   Exists: 1

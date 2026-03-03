@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 8537614422068931038}
   - component: {fileID: 4309581609012455798}
   - component: {fileID: 8746679692416851762}
+  - component: {fileID: 7771906252405125591}
+  - component: {fileID: 1589857579687146880}
   m_Layer: 0
   m_Name: Water
   m_TagString: Untagged
@@ -103,7 +105,7 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -124,13 +126,13 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 913608671
+      Data2: 1255329900
+      Data3: 662011281
+      Data4: 212238614
+    Path: event:/Ambients/Droplet
   Event: 
-  EventPlayTrigger: 0
+  EventPlayTrigger: 2
   EventStopTrigger: 0
   AllowFadeout: 1
   TriggerOnce: 0
@@ -138,5 +140,45 @@ MonoBehaviour:
   NonRigidbodyVelocity: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: -1
-  OverrideMaxDistance: -1
+  OverrideMinDistance: 2
+  OverrideMaxDistance: 20
+--- !u!114 &7771906252405125591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3989033573674248357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81bc5c1212ee04810a0e6ac7e6ff2cb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dropletRef: event:/Ambients/Droplet
+--- !u!54 &1589857579687146880
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3989033573674248357}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
