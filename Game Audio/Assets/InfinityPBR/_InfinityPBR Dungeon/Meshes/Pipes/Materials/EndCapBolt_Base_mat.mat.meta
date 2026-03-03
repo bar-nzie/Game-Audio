@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e324038c37e6f42f28565d12ce06e135
+timeCreated: 1494821563
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183294
+  packageName: Dungeon 2 - Beta 1.1
+  packageVersion: 1.2
+  assetPath: Assets/InfinityPBR/_InfinityPBR Dungeon/Meshes/Pipes/Materials/EndCapBolt_Base_mat.mat
+  uploadId: 407312

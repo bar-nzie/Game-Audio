@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c75102149a73f40228fdc37240fae896
+timeCreated: 1488421144
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183294
+  packageName: Dungeon 2 - Beta 1.1
+  packageVersion: 1.2
+  assetPath: Assets/InfinityPBR/_InfinityPBR Dungeon/Meshes/Props/Materials/green.mat
+  uploadId: 407312

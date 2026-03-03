@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 932dfb6f34cb642d6aef41469d6ea682
+timeCreated: 1499318131
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183294
+  packageName: Dungeon 2 - Beta 1.1
+  packageVersion: 1.2
+  assetPath: Assets/InfinityPBR/_InfinityPBR Dungeon/Meshes/Barrels/Materials/Barrel_033x067_WoodMat.mat
+  uploadId: 407312

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0a605ff52bb1b4c2698c3bb9fbe974e9
+timeCreated: 1484019684
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183294
+  packageName: Dungeon 2 - Beta 1.1
+  packageVersion: 1.2
+  assetPath: Assets/InfinityPBR/_InfinityPBR Dungeon/Meshes/Doors/Door Shape B/Materials/Door_Arch_HandleMat.mat
+  uploadId: 407312

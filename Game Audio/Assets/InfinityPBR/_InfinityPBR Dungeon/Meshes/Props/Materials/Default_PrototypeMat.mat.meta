@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: defaad08b56f1456c937d806b621570b
+timeCreated: 1488775662
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183294
+  packageName: Dungeon 2 - Beta 1.1
+  packageVersion: 1.2
+  assetPath: Assets/InfinityPBR/_InfinityPBR Dungeon/Meshes/Props/Materials/Default_PrototypeMat.mat
+  uploadId: 407312
