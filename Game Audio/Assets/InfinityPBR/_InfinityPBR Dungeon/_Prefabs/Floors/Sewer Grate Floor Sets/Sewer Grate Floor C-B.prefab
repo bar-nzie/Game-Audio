@@ -1,0 +1,209 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9168833966521755375
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8828004132877703302}
+  m_Layer: 0
+  m_Name: Sewer Grate Floor C-B
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &8828004132877703302
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9168833966521755375}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3739408378222331255}
+  - {fileID: 367006887606214313}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2243479332041815658
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8828004132877703302}
+    m_Modifications:
+    - target: {fileID: 1888607213932226755, guid: 59966aa420f1a407592c5ab29cdd41c6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1888607213932226755, guid: 59966aa420f1a407592c5ab29cdd41c6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1888607213932226755, guid: 59966aa420f1a407592c5ab29cdd41c6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1888607213932226755, guid: 59966aa420f1a407592c5ab29cdd41c6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1888607213932226755, guid: 59966aa420f1a407592c5ab29cdd41c6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1888607213932226755, guid: 59966aa420f1a407592c5ab29cdd41c6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1888607213932226755, guid: 59966aa420f1a407592c5ab29cdd41c6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1888607213932226755, guid: 59966aa420f1a407592c5ab29cdd41c6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1888607213932226755, guid: 59966aa420f1a407592c5ab29cdd41c6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1888607213932226755, guid: 59966aa420f1a407592c5ab29cdd41c6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1888607213932226755, guid: 59966aa420f1a407592c5ab29cdd41c6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1888607213932262627, guid: 59966aa420f1a407592c5ab29cdd41c6,
+        type: 3}
+      propertyPath: m_Name
+      value: SewerGrateFloorC_B
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 59966aa420f1a407592c5ab29cdd41c6, type: 3}
+--- !u!4 &367006887606214313 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1888607213932226755, guid: 59966aa420f1a407592c5ab29cdd41c6,
+    type: 3}
+  m_PrefabInstance: {fileID: 2243479332041815658}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4094652321560782712
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8828004132877703302}
+    m_Modifications:
+    - target: {fileID: 807882163089554991, guid: f971ebbb4004443a4b6a9cd53f762988,
+        type: 3}
+      propertyPath: m_Name
+      value: SewerFloorC_B
+      objectReference: {fileID: 0}
+    - target: {fileID: 807882163089554991, guid: f971ebbb4004443a4b6a9cd53f762988,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 807882163089580559, guid: f971ebbb4004443a4b6a9cd53f762988,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 807882163089580559, guid: f971ebbb4004443a4b6a9cd53f762988,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 807882163089580559, guid: f971ebbb4004443a4b6a9cd53f762988,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 807882163089580559, guid: f971ebbb4004443a4b6a9cd53f762988,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 807882163089580559, guid: f971ebbb4004443a4b6a9cd53f762988,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 807882163089580559, guid: f971ebbb4004443a4b6a9cd53f762988,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 807882163089580559, guid: f971ebbb4004443a4b6a9cd53f762988,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 807882163089580559, guid: f971ebbb4004443a4b6a9cd53f762988,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 807882163089580559, guid: f971ebbb4004443a4b6a9cd53f762988,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 807882163089580559, guid: f971ebbb4004443a4b6a9cd53f762988,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 807882163089580559, guid: f971ebbb4004443a4b6a9cd53f762988,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1760381081824285774, guid: f971ebbb4004443a4b6a9cd53f762988,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 2030431296655973938, guid: f971ebbb4004443a4b6a9cd53f762988,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 2374242848630883765, guid: f971ebbb4004443a4b6a9cd53f762988,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5163306387082106203, guid: f971ebbb4004443a4b6a9cd53f762988,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f971ebbb4004443a4b6a9cd53f762988, type: 3}
+--- !u!4 &3739408378222331255 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 807882163089580559, guid: f971ebbb4004443a4b6a9cd53f762988,
+    type: 3}
+  m_PrefabInstance: {fileID: 4094652321560782712}
+  m_PrefabAsset: {fileID: 0}

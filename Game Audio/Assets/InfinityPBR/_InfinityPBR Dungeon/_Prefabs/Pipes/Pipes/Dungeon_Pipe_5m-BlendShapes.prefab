@@ -1,0 +1,463 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &147868
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 488642}
+  - component: {fileID: 13700170}
+  - component: {fileID: 9559668}
+  - component: {fileID: 114102890482650444}
+  m_Layer: 0
+  m_Name: Dungeon_Pipe_5m-BlendShapes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &488642
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147868}
+  m_LocalRotation: {x: 0.000000021855694, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &13700170
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147868}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 37b6bb2b34efe4e8dab40d29adf489a1, type: 2}
+  - {fileID: 2100000, guid: 37b6bb2b34efe4e8dab40d29adf489a1, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 1
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: 2f60b4b6de4534c6d8c0eaecee945acf, type: 3}
+  m_Bones: []
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 0}
+  m_AABB:
+    m_Center: {x: 2.7633867, y: 0, z: -0.0029375553}
+    m_Extent: {x: 2.7633867, y: 0.6908354, z: 0.69377303}
+  m_DirtyAABB: 0
+--- !u!95 &9559668
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147868}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 2f60b4b6de4534c6d8c0eaecee945acf, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114102890482650444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c90a720fc10b6450da271a65db9e647f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blendShapeObjects:
+  - name: pipe_5m
+    meshObject: {fileID: 4300000, guid: 2f60b4b6de4534c6d8c0eaecee945acf, type: 3}
+    renderer: {fileID: 13700170}
+    blendShapes:
+    - name: Bend1ZMinus
+      fullName: SFB_BS_Bend1ZMinus
+      isMinus: 1
+      isPlus: 0
+      inspectorID: 0
+      id: 0
+      minValue: 0
+      maxValue: 0
+      value: 0
+      sliderValue: 0
+      changeDuration: 0
+      isVisible: 0
+      blendMatches: []
+      presetExport: 1
+      presetExportValue: 1
+    - name: Bend1ZPlus
+      fullName: SFB_BS_Bend1ZPlus
+      isMinus: 0
+      isPlus: 1
+      inspectorID: 0
+      id: 1
+      minValue: -100
+      maxValue: 100
+      value: 0
+      sliderValue: 0
+      changeDuration: 0
+      isVisible: 1
+      blendMatches: []
+      presetExport: 1
+      presetExportValue: 1
+    - name: Bend1YPlus
+      fullName: SFB_BS_Bend1YPlus
+      isMinus: 0
+      isPlus: 1
+      inspectorID: 1
+      id: 2
+      minValue: -100
+      maxValue: 100
+      value: 0
+      sliderValue: 0
+      changeDuration: 0
+      isVisible: 1
+      blendMatches: []
+      presetExport: 1
+      presetExportValue: 1
+    - name: Bend1YMinus
+      fullName: SFB_BS_Bend1YMinus
+      isMinus: 1
+      isPlus: 0
+      inspectorID: 0
+      id: 3
+      minValue: 0
+      maxValue: 0
+      value: 0
+      sliderValue: 0
+      changeDuration: 0
+      isVisible: 0
+      blendMatches: []
+      presetExport: 1
+      presetExportValue: 1
+    - name: Bend2ZMinus
+      fullName: SFB_BS_Bend2ZMinus
+      isMinus: 1
+      isPlus: 0
+      inspectorID: 0
+      id: 4
+      minValue: 0
+      maxValue: 0
+      value: 0
+      sliderValue: 0
+      changeDuration: 0
+      isVisible: 0
+      blendMatches: []
+      presetExport: 1
+      presetExportValue: 1
+    - name: Bend2ZPlus
+      fullName: SFB_BS_Bend2ZPlus
+      isMinus: 0
+      isPlus: 1
+      inspectorID: 2
+      id: 5
+      minValue: -100
+      maxValue: 100
+      value: 0
+      sliderValue: 0
+      changeDuration: 0
+      isVisible: 1
+      blendMatches: []
+      presetExport: 1
+      presetExportValue: 1
+    - name: Bend2YPlus
+      fullName: SFB_BS_Bend2YPlus
+      isMinus: 0
+      isPlus: 1
+      inspectorID: 3
+      id: 6
+      minValue: -100
+      maxValue: 100
+      value: 0
+      sliderValue: 0
+      changeDuration: 0
+      isVisible: 1
+      blendMatches: []
+      presetExport: 1
+      presetExportValue: 1
+    - name: Bend2YMinus
+      fullName: SFB_BS_Bend2YMinus
+      isMinus: 1
+      isPlus: 0
+      inspectorID: 0
+      id: 7
+      minValue: 0
+      maxValue: 0
+      value: 0
+      sliderValue: 0
+      changeDuration: 0
+      isVisible: 0
+      blendMatches: []
+      presetExport: 1
+      presetExportValue: 1
+    - name: EndAZMinus
+      fullName: SFB_BS_EndAZMinus
+      isMinus: 1
+      isPlus: 0
+      inspectorID: 0
+      id: 8
+      minValue: 0
+      maxValue: 0
+      value: 0
+      sliderValue: 0
+      changeDuration: 0
+      isVisible: 0
+      blendMatches: []
+      presetExport: 1
+      presetExportValue: 1
+    - name: EndAZPlus
+      fullName: SFB_BS_EndAZPlus
+      isMinus: 0
+      isPlus: 1
+      inspectorID: 4
+      id: 9
+      minValue: -100
+      maxValue: 100
+      value: 0
+      sliderValue: 0
+      changeDuration: 0
+      isVisible: 1
+      blendMatches: []
+      presetExport: 1
+      presetExportValue: 1
+    - name: EndAYMinus
+      fullName: SFB_BS_EndAYMinus
+      isMinus: 1
+      isPlus: 0
+      inspectorID: 0
+      id: 10
+      minValue: 0
+      maxValue: 0
+      value: 0
+      sliderValue: 0
+      changeDuration: 0
+      isVisible: 0
+      blendMatches: []
+      presetExport: 1
+      presetExportValue: 1
+    - name: EndAYPlus
+      fullName: SFB_BS_EndAYPlus
+      isMinus: 0
+      isPlus: 1
+      inspectorID: 5
+      id: 11
+      minValue: -100
+      maxValue: 100
+      value: 0
+      sliderValue: 0
+      changeDuration: 0
+      isVisible: 1
+      blendMatches: []
+      presetExport: 1
+      presetExportValue: 1
+    - name: EndBZMinus
+      fullName: SFB_BS_EndBZMinus
+      isMinus: 1
+      isPlus: 0
+      inspectorID: 0
+      id: 12
+      minValue: 0
+      maxValue: 0
+      value: 0
+      sliderValue: 0
+      changeDuration: 0
+      isVisible: 0
+      blendMatches: []
+      presetExport: 1
+      presetExportValue: 1
+    - name: EndBZPlus
+      fullName: SFB_BS_EndBZPlus
+      isMinus: 0
+      isPlus: 1
+      inspectorID: 6
+      id: 13
+      minValue: -100
+      maxValue: 100
+      value: 0
+      sliderValue: 0
+      changeDuration: 0
+      isVisible: 1
+      blendMatches: []
+      presetExport: 1
+      presetExportValue: 1
+    - name: EndBYMinus
+      fullName: SFB_BS_EndBYMinus
+      isMinus: 1
+      isPlus: 0
+      inspectorID: 0
+      id: 14
+      minValue: 0
+      maxValue: 0
+      value: 0
+      sliderValue: 0
+      changeDuration: 0
+      isVisible: 0
+      blendMatches: []
+      presetExport: 1
+      presetExportValue: 1
+    - name: EndBYPlus
+      fullName: SFB_BS_EndBYPlus
+      isMinus: 0
+      isPlus: 1
+      inspectorID: 7
+      id: 15
+      minValue: -100
+      maxValue: 100
+      value: 0
+      sliderValue: 0
+      changeDuration: 0
+      isVisible: 1
+      blendMatches: []
+      presetExport: 1
+      presetExportValue: 1
+    - name: SizePlus
+      fullName: SFB_BS_SizePlus
+      isMinus: 0
+      isPlus: 1
+      inspectorID: 8
+      id: 16
+      minValue: -100
+      maxValue: 100
+      value: 0
+      sliderValue: 0
+      changeDuration: 0
+      isVisible: 1
+      blendMatches: []
+      presetExport: 1
+      presetExportValue: 1
+    - name: SizeMinus
+      fullName: SFB_BS_SizeMinus
+      isMinus: 1
+      isPlus: 0
+      inspectorID: 0
+      id: 17
+      minValue: 0
+      maxValue: 0
+      value: 0
+      sliderValue: 0
+      changeDuration: 0
+      isVisible: 0
+      blendMatches: []
+      presetExport: 1
+      presetExportValue: 1
+    - name: LengthPlus
+      fullName: SFB_BS_LengthPlus
+      isMinus: 0
+      isPlus: 1
+      inspectorID: 9
+      id: 18
+      minValue: -100
+      maxValue: 100
+      value: 0
+      sliderValue: 0
+      changeDuration: 0
+      isVisible: 1
+      blendMatches: []
+      presetExport: 1
+      presetExportValue: 1
+    - name: LengthMinus
+      fullName: SFB_BS_LengthMinus
+      isMinus: 1
+      isPlus: 0
+      inspectorID: 0
+      id: 19
+      minValue: 0
+      maxValue: 0
+      value: 0
+      sliderValue: 0
+      changeDuration: 0
+      isVisible: 0
+      blendMatches: []
+      presetExport: 1
+      presetExportValue: 1
+    primaryShapes: 20
+    expandedInspector: 0
+  inspectorObjects:
+  - objectID: 0
+    shapeID: 1
+    blendShapeID: 1
+  - objectID: 0
+    shapeID: 2
+    blendShapeID: 2
+  - objectID: 0
+    shapeID: 5
+    blendShapeID: 5
+  - objectID: 0
+    shapeID: 6
+    blendShapeID: 6
+  - objectID: 0
+    shapeID: 9
+    blendShapeID: 9
+  - objectID: 0
+    shapeID: 11
+    blendShapeID: 11
+  - objectID: 0
+    shapeID: 13
+    blendShapeID: 13
+  - objectID: 0
+    shapeID: 15
+    blendShapeID: 15
+  - objectID: 0
+    shapeID: 16
+    blendShapeID: 16
+  - objectID: 0
+    shapeID: 18
+    blendShapeID: 18
+  presetObjects: []
+  showWireframe: 1
+  presetName: 
+  showPresets: 0
+  showShapes: 1
+  showData: 0
+  showScripting: 0
+  selectedShape: 0
+  globalRangeModifier: 0.5

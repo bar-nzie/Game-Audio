@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 31a673c15957f42f4b6bb1bc79496f75
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183294
+  packageName: Dungeon 2 - Beta 1.1
+  packageVersion: 1.2
+  assetPath: Assets/InfinityPBR/_InfinityPBR Dungeon/_Prefabs/Doors & Archways/Doors/Dungeon_DoorShapeC_A
+    - Trigger Variant.prefab
+  uploadId: 407312
