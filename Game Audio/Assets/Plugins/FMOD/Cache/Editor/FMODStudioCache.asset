@@ -43,10 +43,10 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639079782595478994
+  lastModified: 639081353182239497
   FileSizes:
   - Name: Desktop
-    Value: 898
+    Value: 1002
   Exists: 1
 --- !u!114 &-6080971659994598275
 MonoBehaviour:
@@ -63,10 +63,30 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Whispers.bank
   Name: Whispers
   StudioPath: bank:/Ambient/Whispers
-  lastModified: 639079782595880636
+  lastModified: 639081353186625239
   FileSizes:
   - Name: Desktop
     Value: 1225280
+  Exists: 1
+--- !u!114 &-4865819059832124281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Torch.bank
+  m_EditorClassIdentifier: 
+  Path: ../Game Audio FMOD/Build/Desktop/Torch.bank
+  Name: Torch
+  StudioPath: bank:/Torch/Torch
+  lastModified: 639081353184642202
+  FileSizes:
+  - Name: Desktop
+    Value: 239200
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -84,18 +104,22 @@ MonoBehaviour:
   - {fileID: -8813388798407908523}
   - {fileID: 5588109215525101814}
   - {fileID: -6080971659994598275}
+  - {fileID: -4865819059832124281}
   EditorEvents:
   - {fileID: -9196877907099755918}
+  - {fileID: 3336427876960010687}
   EditorParameters: []
   MasterBanks:
   - {fileID: 5588109215525101814}
   StringsBanks:
   - {fileID: -8813388798407908523}
   cacheVersion: 131858
-  cacheTime: 639079782595880636
+  cacheTime: 639081353186625239
   SerializableEventsDict:
   - key: event:/Ambients/Dungeon_Whispers
     index: 0
+  - key: event:/Torches/Car-on-fire
+    index: 1
 --- !u!114 &2337504322761357083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -120,6 +144,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &3336427876960010687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Torches/Car-on-fire
+  m_EditorClassIdentifier: 
+  Path: event:/Torches/Car-on-fire
+  Guid:
+    Data1: 724198933
+    Data2: 1122197448
+    Data3: -1555307846
+    Data4: -748065677
+  Banks:
+  - {fileID: -4865819059832124281}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 2
+  MaxDistance: 20
+  Length: 18144
 --- !u!114 &5588109215525101814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -135,7 +186,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639079782595463795
+  lastModified: 639081353182233478
   FileSizes:
   - Name: Desktop
     Value: 1074
