@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 41af03170e3d54fd3ae7e4041b1107c8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183294
+  packageName: Dungeon 2 - Beta 1.1
+  packageVersion: 1.2
+  assetPath: Assets/InfinityPBR/_InfinityPBR Dungeon/Editor/EditorTools.cs
+  uploadId: 407312

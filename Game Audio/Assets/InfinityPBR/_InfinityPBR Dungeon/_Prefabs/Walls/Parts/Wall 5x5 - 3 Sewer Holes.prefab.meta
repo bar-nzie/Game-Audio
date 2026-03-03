@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0d89e502089eb4aee81d20316b559efa
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183294
+  packageName: Dungeon 2 - Beta 1.1
+  packageVersion: 1.2
+  assetPath: Assets/InfinityPBR/_InfinityPBR Dungeon/_Prefabs/Walls/Parts/Wall 5x5
+    - 3 Sewer Holes.prefab
+  uploadId: 407312

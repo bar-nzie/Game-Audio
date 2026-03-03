@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 1c50db269c13e4233b9b1e333157376a
+timeCreated: 1494794220
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183294
+  packageName: Dungeon 2 - Beta 1.1
+  packageVersion: 1.2
+  assetPath: Assets/InfinityPBR/_InfinityPBR Dungeon/Materials & Textures/Archway
+    Overlays/Dungeon_ArchwayShapeA_B.mat
+  uploadId: 407312

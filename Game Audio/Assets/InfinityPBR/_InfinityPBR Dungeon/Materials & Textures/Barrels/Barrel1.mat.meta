@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 284f59237ccbc46068de28a12ce35daa
+timeCreated: 1499318824
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183294
+  packageName: Dungeon 2 - Beta 1.1
+  packageVersion: 1.2
+  assetPath: Assets/InfinityPBR/_InfinityPBR Dungeon/Materials & Textures/Barrels/Barrel1.mat
+  uploadId: 407312
