@@ -43,11 +43,58 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639079782595478994
+  lastModified: 639081337208681122
   FileSizes:
   - Name: Desktop
-    Value: 898
+    Value: 998
   Exists: 1
+--- !u!114 &-7784203720568537425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/FogGate.bank
+  m_EditorClassIdentifier: 
+  Path: ../Game Audio FMOD/Build/Desktop/FogGate.bank
+  Name: FogGate
+  StudioPath: bank:/Ambient/FogGate
+  lastModified: 639081337209534284
+  FileSizes:
+  - Name: Desktop
+    Value: 45824
+  Exists: 1
+--- !u!114 &-7739583128183549352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambients/Fog Gate
+  m_EditorClassIdentifier: 
+  Path: event:/Ambients/Fog Gate
+  Guid:
+    Data1: -339535813
+    Data2: 1251973569
+    Data3: 1333051822
+    Data4: 1807844307
+  Banks:
+  - {fileID: -7784203720568537425}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4989
 --- !u!114 &-6080971659994598275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63,7 +110,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Whispers.bank
   Name: Whispers
   StudioPath: bank:/Ambient/Whispers
-  lastModified: 639079782595880636
+  lastModified: 639081331748157343
   FileSizes:
   - Name: Desktop
     Value: 1225280
@@ -84,18 +131,22 @@ MonoBehaviour:
   - {fileID: -8813388798407908523}
   - {fileID: 5588109215525101814}
   - {fileID: -6080971659994598275}
+  - {fileID: -7784203720568537425}
   EditorEvents:
   - {fileID: -9196877907099755918}
+  - {fileID: -7739583128183549352}
   EditorParameters: []
   MasterBanks:
   - {fileID: 5588109215525101814}
   StringsBanks:
   - {fileID: -8813388798407908523}
   cacheVersion: 131858
-  cacheTime: 639079782595880636
+  cacheTime: 639081337209534284
   SerializableEventsDict:
   - key: event:/Ambients/Dungeon_Whispers
     index: 0
+  - key: event:/Ambients/Fog Gate
+    index: 1
 --- !u!114 &2337504322761357083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -135,7 +186,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639079782595463795
+  lastModified: 639081337208674889
   FileSizes:
   - Name: Desktop
     Value: 1074
