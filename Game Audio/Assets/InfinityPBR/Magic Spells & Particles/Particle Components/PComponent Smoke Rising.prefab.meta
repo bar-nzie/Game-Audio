@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 5fc7729eef8f54fac9e1ccab70a8262f
+timeCreated: 18446744011573954816
+NativeFormatImporter:
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183294
+  packageName: Dungeon 2 - Beta 1.1
+  packageVersion: 1.2
+  assetPath: Assets/InfinityPBR/Magic Spells & Particles/Particle Components/PComponent
+    Smoke Rising.prefab
+  uploadId: 407312

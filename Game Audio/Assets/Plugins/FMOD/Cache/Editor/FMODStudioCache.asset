@@ -1,5 +1,73 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9196877907099755918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambients/Dungeon_Whispers
+  m_EditorClassIdentifier: 
+  Path: event:/Ambients/Dungeon_Whispers
+  Guid:
+    Data1: 49599672
+    Data2: 1322155445
+    Data3: 1492293301
+    Data4: -2082077202
+  Banks:
+  - {fileID: -6080971659994598275}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 2337504322761357083}
+  MinDistance: 2
+  MaxDistance: 20
+  Length: 17749
+--- !u!114 &-8813388798407908523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../Game Audio FMOD/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 639079782595478994
+  FileSizes:
+  - Name: Desktop
+    Value: 898
+  Exists: 1
+--- !u!114 &-6080971659994598275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Whispers.bank
+  m_EditorClassIdentifier: 
+  Path: ../Game Audio FMOD/Build/Desktop/Whispers.bank
+  Name: Whispers
+  StudioPath: bank:/Ambient/Whispers
+  lastModified: 639079782595880636
+  FileSizes:
+  - Name: Desktop
+    Value: 1225280
+  Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12,11 +80,63 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
-  EditorBanks: []
-  EditorEvents: []
+  EditorBanks:
+  - {fileID: -8813388798407908523}
+  - {fileID: 5588109215525101814}
+  - {fileID: -6080971659994598275}
+  EditorEvents:
+  - {fileID: -9196877907099755918}
   EditorParameters: []
-  MasterBanks: []
-  StringsBanks: []
+  MasterBanks:
+  - {fileID: 5588109215525101814}
+  StringsBanks:
+  - {fileID: -8813388798407908523}
   cacheVersion: 131858
-  cacheTime: 0
-  SerializableEventsDict: []
+  cacheTime: 639079782595880636
+  SerializableEventsDict:
+  - key: event:/Ambients/Dungeon_Whispers
+    index: 0
+--- !u!114 &2337504322761357083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Dungeon_Whispers/FloorLevel
+  m_EditorClassIdentifier: 
+  Name: FloorLevel
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2316577132
+    data2: 1915414304
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &5588109215525101814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../Game Audio FMOD/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 639079782595463795
+  FileSizes:
+  - Name: Desktop
+    Value: 1074
+  Exists: 1

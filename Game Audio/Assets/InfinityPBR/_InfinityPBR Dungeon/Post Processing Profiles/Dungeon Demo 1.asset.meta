@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 2d65d3371f57a48b48b7afc6bc0ecd1a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183294
+  packageName: Dungeon 2 - Beta 1.1
+  packageVersion: 1.2
+  assetPath: Assets/InfinityPBR/_InfinityPBR Dungeon/Post Processing Profiles/Dungeon
+    Demo 1.asset
+  uploadId: 407312

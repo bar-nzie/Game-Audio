@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 95e952b9951be4da4a524066d1abee93
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183294
+  packageName: Dungeon 2 - Beta 1.1
+  packageVersion: 1.2
+  assetPath: Assets/InfinityPBR/_InfinityPBR Dungeon/Scripts/TriggerPassiveToggle.cs
+  uploadId: 407312
