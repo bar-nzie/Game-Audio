@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4fa9fd7fc4aa640229936a5dc17c3e93
+timeCreated: 1494830481
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183294
+  packageName: Dungeon 2 - Beta 1.1
+  packageVersion: 1.2
+  assetPath: Assets/InfinityPBR/_InfinityPBR Dungeon/Materials & Textures/Pipes/Dungeon_Pipe_45DegreeCurve.mat
+  uploadId: 407312

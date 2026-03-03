@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: edb578d28f7d148beb14cf9fc0356725
+timeCreated: 1494830506
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183294
+  packageName: Dungeon 2 - Beta 1.1
+  packageVersion: 1.2
+  assetPath: Assets/InfinityPBR/_InfinityPBR Dungeon/Materials & Textures/Pipes/DungeonPipe_MediumCurve.mat
+  uploadId: 407312

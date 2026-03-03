@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 43e0e47e91ac94ca88233739232ae9b6
+timeCreated: 1494830578
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183294
+  packageName: Dungeon 2 - Beta 1.1
+  packageVersion: 1.2
+  assetPath: Assets/InfinityPBR/_InfinityPBR Dungeon/Materials & Textures/Pipes/DungeonPipeEndCap.mat
+  uploadId: 407312

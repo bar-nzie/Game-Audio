@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 37b6bb2b34efe4e8dab40d29adf489a1
+timeCreated: 1494830562
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183294
+  packageName: Dungeon 2 - Beta 1.1
+  packageVersion: 1.2
+  assetPath: Assets/InfinityPBR/_InfinityPBR Dungeon/Materials & Textures/Pipes/DungeonPipe.mat
+  uploadId: 407312

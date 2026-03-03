@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 646fcdd9e197e4f46a9e84fcae7a9d43
+timeCreated: 1494830664
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183294
+  packageName: Dungeon 2 - Beta 1.1
+  packageVersion: 1.2
+  assetPath: Assets/InfinityPBR/_InfinityPBR Dungeon/Materials & Textures/Pipes/DungeonWallConnector.mat
+  uploadId: 407312

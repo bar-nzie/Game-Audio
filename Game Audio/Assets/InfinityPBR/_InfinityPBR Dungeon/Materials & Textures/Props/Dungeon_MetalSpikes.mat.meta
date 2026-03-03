@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 02c517189b0c24aa693456b0b4317268
+timeCreated: 1488775856
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183294
+  packageName: Dungeon 2 - Beta 1.1
+  packageVersion: 1.2
+  assetPath: Assets/InfinityPBR/_InfinityPBR Dungeon/Materials & Textures/Props/Dungeon_MetalSpikes.mat
+  uploadId: 407312
