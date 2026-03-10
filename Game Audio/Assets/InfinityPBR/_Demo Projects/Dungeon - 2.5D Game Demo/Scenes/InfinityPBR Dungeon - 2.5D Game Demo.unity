@@ -10665,6 +10665,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player Human
       objectReference: {fileID: 0}
+    - target: {fileID: 3856832715748519485, guid: 4e8ebce561b864b9082f9c34f98088cd,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 3856832715748553309, guid: 4e8ebce561b864b9082f9c34f98088cd,
         type: 3}
       propertyPath: m_RootOrder
@@ -12295,6 +12300,7 @@ GameObject:
   - component: {fileID: 342717889}
   - component: {fileID: 342717888}
   - component: {fileID: 342717892}
+  - component: {fileID: 342717893}
   m_Layer: 0
   m_Name: Trigger Up B
   m_TagString: Untagged
@@ -12406,6 +12412,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   connection: {fileID: 405265833}
   rotationAmount: 180
+--- !u!114 &342717893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 342717887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f8137e7801ec478ab56bce46d982eb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fogGateEvent: event:/Ambients/Fog Gate
 --- !u!4 &345554807 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5092675254296785350, guid: 3c16e3df833fb4e1f857328d59e79fda,
@@ -13852,6 +13871,7 @@ GameObject:
   - component: {fileID: 405265831}
   - component: {fileID: 405265830}
   - component: {fileID: 405265834}
+  - component: {fileID: 405265835}
   m_Layer: 0
   m_Name: Trigger Down B
   m_TagString: Untagged
@@ -13963,6 +13983,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   connection: {fileID: 342717891}
   rotationAmount: 180
+--- !u!114 &405265835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 405265829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f8137e7801ec478ab56bce46d982eb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fogGateEvent: event:/Ambients/Fog Gate
 --- !u!4 &407432906 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 489564, guid: 1bedddfc0e3274258881c9b6f4d12516,
@@ -14700,6 +14733,7 @@ GameObject:
   - component: {fileID: 429797649}
   - component: {fileID: 429797648}
   - component: {fileID: 429797652}
+  - component: {fileID: 429797653}
   m_Layer: 0
   m_Name: Trigger Up A
   m_TagString: Untagged
@@ -14811,6 +14845,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   connection: {fileID: 1390961203}
   rotationAmount: 180
+--- !u!114 &429797653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 429797647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f8137e7801ec478ab56bce46d982eb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fogGateEvent: event:/Ambients/Fog Gate
 --- !u!1001 &443743491
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19269,6 +19316,7 @@ GameObject:
   m_Component:
   - component: {fileID: 647586152}
   - component: {fileID: 647586151}
+  - component: {fileID: 647586153}
   m_Layer: 0
   m_Name: FMOD Listener
   m_TagString: Untagged
@@ -19322,6 +19370,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &647586153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647586150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  EventReference:
+    Guid:
+      Data1: -339535813
+      Data2: 1251973569
+      Data3: 1333051822
+      Data4: 1807844307
+    Path: event:/Ambients/Fog Gate
+  Event: 
+  EventPlayTrigger: 3
+  EventStopTrigger: 4
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &651295379
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40488,6 +40567,7 @@ GameObject:
   - component: {fileID: 1390961201}
   - component: {fileID: 1390961200}
   - component: {fileID: 1390961204}
+  - component: {fileID: 1390961205}
   m_Layer: 0
   m_Name: Trigger Down A
   m_TagString: Untagged
@@ -40599,6 +40679,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   connection: {fileID: 429797651}
   rotationAmount: 180
+--- !u!114 &1390961205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1390961199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f8137e7801ec478ab56bce46d982eb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fogGateEvent: event:/Ambients/Fog Gate
 --- !u!4 &1394269923 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2856935353819617154, guid: 4331b28f0c2ba4e44b64240d0a7171e9,

@@ -43,11 +43,58 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639087468135724115
+  lastModified: 639087491913757788
   FileSizes:
   - Name: Desktop
-    Value: 1002
+    Value: 1240
   Exists: 1
+--- !u!114 &-7420159840050614421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/FogGate.bank
+  m_EditorClassIdentifier: 
+  Path: ../Game Audio FMOD/Build/Desktop/FogGate.bank
+  Name: FogGate
+  StudioPath: bank:/Ambient/FogGate
+  lastModified: 639087489404565495
+  FileSizes:
+  - Name: Desktop
+    Value: 45824
+  Exists: 1
+--- !u!114 &-6189865598059351498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambients/Fog Gate
+  m_EditorClassIdentifier: 
+  Path: event:/Ambients/Fog Gate
+  Guid:
+    Data1: -339535813
+    Data2: 1251973569
+    Data3: 1333051822
+    Data4: 1807844307
+  Banks:
+  - {fileID: -7420159840050614421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4989
 --- !u!114 &-6080971659994598275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63,7 +110,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Whispers.bank
   Name: Whispers
   StudioPath: bank:/Ambient/Whispers
-  lastModified: 639087468135733149
+  lastModified: 639087489406788270
   FileSizes:
   - Name: Desktop
     Value: 1225280
@@ -83,7 +130,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Torch.bank
   Name: Torch
   StudioPath: bank:/Torch/Torch
-  lastModified: 639087468135725993
+  lastModified: 639087489409221161
   FileSizes:
   - Name: Desktop
     Value: 239200
@@ -105,21 +152,27 @@ MonoBehaviour:
   - {fileID: 5588109215525101814}
   - {fileID: -6080971659994598275}
   - {fileID: -4865819059832124281}
+  - {fileID: 4563177006184954106}
+  - {fileID: -7420159840050614421}
   EditorEvents:
   - {fileID: -9196877907099755918}
   - {fileID: 3336427876960010687}
+  - {fileID: -6189865598059351498}
+  - {fileID: 2790092695215974887}
   EditorParameters: []
   MasterBanks:
   - {fileID: 5588109215525101814}
   StringsBanks:
   - {fileID: -8813388798407908523}
   cacheVersion: 131858
-  cacheTime: 639087468135733149
+  cacheTime: 639087491913925466
   SerializableEventsDict:
   - key: event:/Ambients/Dungeon_Whispers
     index: 0
   - key: event:/Torches/Car-on-fire
     index: 1
+  - key: event:/Ambients/Fog Gate
+    index: 2
 --- !u!114 &2337504322761357083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -144,6 +197,34 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &2790092695215974887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambients/Droplet
+  m_EditorClassIdentifier: 
+  Path: event:/Ambients/Droplet
+  Guid:
+    Data1: 913608671
+    Data2: 1255329900
+    Data3: 662011281
+    Data4: 212238614
+  Banks:
+  - {fileID: 4563177006184954106}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 5191918746667022697}
+  MinDistance: 2
+  MaxDistance: 20
+  Length: 499
 --- !u!114 &3336427876960010687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -171,6 +252,50 @@ MonoBehaviour:
   MinDistance: 2
   MaxDistance: 20
   Length: 18144
+--- !u!114 &4563177006184954106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Droplet.bank
+  m_EditorClassIdentifier: 
+  Path: ../Game Audio FMOD/Build/Desktop/Droplet.bank
+  Name: Droplet
+  StudioPath: bank:/Ambient/Droplet
+  lastModified: 639087491913925466
+  FileSizes:
+  - Name: Desktop
+    Value: 9760
+  Exists: 1
+--- !u!114 &5191918746667022697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Droplet/Distance
+  m_EditorClassIdentifier: 
+  Name: Distance
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 906873558
+    data2: 3755746921
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &5588109215525101814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -186,7 +311,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639087468135723115
+  lastModified: 639087491913751638
   FileSizes:
   - Name: Desktop
     Value: 1074
