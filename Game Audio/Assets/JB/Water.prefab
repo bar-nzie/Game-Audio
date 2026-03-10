@@ -132,7 +132,7 @@ MonoBehaviour:
       Data4: 212238614
     Path: event:/Ambients/Droplet
   Event: 
-  EventPlayTrigger: 2
+  EventPlayTrigger: 0
   EventStopTrigger: 0
   AllowFadeout: 1
   TriggerOnce: 0

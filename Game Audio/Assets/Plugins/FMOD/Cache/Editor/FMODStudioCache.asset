@@ -63,7 +63,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/FogGate.bank
   Name: FogGate
   StudioPath: bank:/Ambient/FogGate
-  lastModified: 639087489404565495
+  lastModified: 639087512684914836
   FileSizes:
   - Name: Desktop
     Value: 45824
@@ -165,7 +165,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -8813388798407908523}
   cacheVersion: 131858
-  cacheTime: 639087491913925466
+  cacheTime: 639087512685076685
   SerializableEventsDict:
   - key: event:/Ambients/Dungeon_Whispers
     index: 0
@@ -173,6 +173,8 @@ MonoBehaviour:
     index: 1
   - key: event:/Ambients/Fog Gate
     index: 2
+  - key: event:/Ambients/Droplet
+    index: 3
 --- !u!114 &2337504322761357083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -267,10 +269,10 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Droplet.bank
   Name: Droplet
   StudioPath: bank:/Ambient/Droplet
-  lastModified: 639087491913925466
+  lastModified: 639087512685076685
   FileSizes:
   - Name: Desktop
-    Value: 9760
+    Value: 9920
   Exists: 1
 --- !u!114 &5191918746667022697
 MonoBehaviour:

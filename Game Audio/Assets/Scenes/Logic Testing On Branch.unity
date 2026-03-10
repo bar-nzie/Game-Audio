@@ -541,7 +541,7 @@ PrefabInstance:
     - target: {fileID: 3856832715748553309, guid: 4e8ebce561b864b9082f9c34f98088cd,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10
+      value: -16.27
       objectReference: {fileID: 0}
     - target: {fileID: 3856832715748553309, guid: 4e8ebce561b864b9082f9c34f98088cd,
         type: 3}
@@ -825,6 +825,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Water Spawner
+      objectReference: {fileID: 0}
+    - target: {fileID: 8596230070835270642, guid: 1585553651da246f9bfc6c3725c4fd46,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

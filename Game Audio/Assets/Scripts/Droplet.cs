@@ -20,7 +20,7 @@ public class Droplet : MonoBehaviour
     {
         float dist = Vector3.Distance(transform.position, player.transform.position);
         Debug.Log(dist);
-        dist /= 50;
+        dist /= 30;
         Debug.Log(dist);
         droplet.setParameterByName("Distance", dist);
         droplet.start();
