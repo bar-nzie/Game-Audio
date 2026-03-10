@@ -1,0 +1,12 @@
+{2f92febf-9d02-45cf-871d-10fec322844e} bank:/Ambient/Droplet
+{318930e0-aa2a-4942-9973-7b11ddd7d403} bank:/Ambient/FogGate
+{b0a5c74a-900a-4223-9099-8c09f37470cb} bank:/Ambient/Whispers
+{2679d71f-c297-4ecc-a0e7-95723ac39c1c} bank:/Master
+{be64f7cb-b3ec-028e-26ae-1f8ccb309a84} bank:/Master.strings
+{17654aaa-9800-485f-b6a5-85ab7bdeb1e8} bus:/
+{829f2838-062e-4e7f-8460-5a84e181cece} bus:/Reverb
+{36748fdf-d06c-4ad2-917d-75271681a60c} event:/Ambients/Droplet
+{02f4d4b8-7db5-4ece-b596-f258ee05e683} event:/Ambients/Dungeon_Whispers
+{ebc3183b-99c1-4a9f-aec1-744fd383c16b} event:/Ambients/Fog Gate
+{d093d972-8abc-4794-b0c0-b4692664a8af} parameter:/Distance
+{997fae7c-a349-4f0f-8a9d-03484fd89749} parameter:/FloorLevel
