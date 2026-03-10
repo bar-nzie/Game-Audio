@@ -26,21 +26,21 @@ public class FloorAudioController : MonoBehaviour
     void Update()
     {
         // Drawing a line from the player going down to hit the ground that the player is standing on
-        Debug.DrawRay(transform.position + Vector3.up * 0.1f, Vector3.down * rayDistance, Color.red);
+        Debug.DrawRay(transform.position + Vector3.up * 0.5f, Vector3.down * rayDistance, Color.red);
 
-        Ray ray = new Ray(transform.position + Vector3.up * 0.1f, Vector3.down);
+        Ray ray = new Ray(transform.position + Vector3.up * 0.5f, Vector3.down);
         RaycastHit hit;
 
         // If that line hits any gameobject that has been assigned the floor layer in Unity then the whispers will start to play
         if (Physics.Raycast(ray, out hit, rayDistance, floorLayer))
         {
-            //Debug.Log("Raycast hit: " + hit.collider.name);
-            //Debug.Log("Hit Layer: " + LayerMask.LayerToName(hit.collider.gameObject.layer));
+            Debug.Log("Raycast hit: " + hit.collider.name);
+            Debug.Log("Hit Layer: " + LayerMask.LayerToName(hit.collider.gameObject.layer));
 
             if (!isOnFloor)
             {
                 // This changes the Parameter that have been set up in FMOD changes 1 then the player is on floor 1 which means the whispers play
-                //Debug.Log("Standing on Floor layer - Setting FloorLevel to 1");
+                Debug.Log("Standing on Floor layer - Setting FloorLevel to 1");
                 whisperInstance.setParameterByName("FloorLevel", 1f);
                 isOnFloor = true;
             }
@@ -52,7 +52,7 @@ public class FloorAudioController : MonoBehaviour
             if (isOnFloor)
             {
                 // When the player is no on floor 1, the parameter that have been set up in FMOD changes 2 meaning the player is on floor 2 which means the whispers stop playing
-                //Debug.Log("Left Floor layer - Setting FloorLevel to 0");
+                Debug.Log("Left Floor layer - Setting FloorLevel to 0");
                 whisperInstance.setParameterByName("FloorLevel", 0f);
                 isOnFloor = false;
             }
