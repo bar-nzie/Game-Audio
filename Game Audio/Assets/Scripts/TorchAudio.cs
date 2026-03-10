@@ -30,12 +30,14 @@ public class TorchAudio : MonoBehaviour
         if (isNextToTorch == true) {
 
             torchInstance.start();
+            Debug.Log("Enter range of torch");
         }
     }
 
     public void OnTriggerExit(){
         
         isNextToTorch = false;
+        Debug.Log("Exit range of torch");
     }
 
 }

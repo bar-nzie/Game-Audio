@@ -43,7 +43,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639081353182239497
+  lastModified: 639087468135724115
   FileSizes:
   - Name: Desktop
     Value: 1002
@@ -63,7 +63,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Whispers.bank
   Name: Whispers
   StudioPath: bank:/Ambient/Whispers
-  lastModified: 639081353186625239
+  lastModified: 639087468135733149
   FileSizes:
   - Name: Desktop
     Value: 1225280
@@ -83,7 +83,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Torch.bank
   Name: Torch
   StudioPath: bank:/Torch/Torch
-  lastModified: 639081353184642202
+  lastModified: 639087468135725993
   FileSizes:
   - Name: Desktop
     Value: 239200
@@ -114,7 +114,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -8813388798407908523}
   cacheVersion: 131858
-  cacheTime: 639081353186625239
+  cacheTime: 639087468135733149
   SerializableEventsDict:
   - key: event:/Ambients/Dungeon_Whispers
     index: 0
@@ -186,7 +186,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639081353182233478
+  lastModified: 639087468135723115
   FileSizes:
   - Name: Desktop
     Value: 1074
