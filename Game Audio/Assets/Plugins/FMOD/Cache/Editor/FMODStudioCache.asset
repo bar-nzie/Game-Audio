@@ -43,10 +43,10 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639087491913757788
+  lastModified: 639087543802529951
   FileSizes:
   - Name: Desktop
-    Value: 1240
+    Value: 1322
   Exists: 1
 --- !u!114 &-7420159840050614421
 MonoBehaviour:
@@ -135,6 +135,55 @@ MonoBehaviour:
   - Name: Desktop
     Value: 239200
   Exists: 1
+--- !u!114 &-3636760774854801160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/BattleHorn.bank
+  m_EditorClassIdentifier: 
+  Path: ../Game Audio FMOD/Build/Desktop/BattleHorn.bank
+  Name: BattleHorn
+  StudioPath: bank:/Ambient/BattleHorn
+  lastModified: 639087543803907497
+  FileSizes:
+  - Name: Desktop
+    Value: 61056
+  Exists: 1
+--- !u!114 &-1414330568761603865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambients/BattleHorn
+  m_EditorClassIdentifier: 
+  Path: event:/Ambients/BattleHorn
+  Guid:
+    Data1: -174561748
+    Data2: 1256577535
+    Data3: 333001386
+    Data4: -2091171588
+  Banks:
+  - {fileID: -3636760774854801160}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 9184249241274845870}
+  - {fileID: 2973160954641468486}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 12277
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -154,18 +203,20 @@ MonoBehaviour:
   - {fileID: -4865819059832124281}
   - {fileID: 4563177006184954106}
   - {fileID: -7420159840050614421}
+  - {fileID: -3636760774854801160}
   EditorEvents:
   - {fileID: -9196877907099755918}
   - {fileID: 3336427876960010687}
   - {fileID: -6189865598059351498}
   - {fileID: 2790092695215974887}
+  - {fileID: -1414330568761603865}
   EditorParameters: []
   MasterBanks:
   - {fileID: 5588109215525101814}
   StringsBanks:
   - {fileID: -8813388798407908523}
   cacheVersion: 131858
-  cacheTime: 639087512685076685
+  cacheTime: 639087543803907497
   SerializableEventsDict:
   - key: event:/Ambients/Dungeon_Whispers
     index: 0
@@ -175,6 +226,8 @@ MonoBehaviour:
     index: 2
   - key: event:/Ambients/Droplet
     index: 3
+  - key: event:/Ambients/BattleHorn
+    index: 4
 --- !u!114 &2337504322761357083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -227,6 +280,30 @@ MonoBehaviour:
   MinDistance: 2
   MaxDistance: 20
   Length: 499
+--- !u!114 &2973160954641468486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BattleHorn/Distance
+  m_EditorClassIdentifier: 
+  Name: Distance
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 906873558
+    data2: 3755746921
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &3336427876960010687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -313,8 +390,32 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639087491913751638
+  lastModified: 639087543802523446
   FileSizes:
   - Name: Desktop
     Value: 1074
+  Exists: 1
+--- !u!114 &9184249241274845870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BattleHorn/FloorLevel
+  m_EditorClassIdentifier: 
+  Name: FloorLevel
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2316577132
+    data2: 1915414304
+  Type: 0
+  IsGlobal: 0
+  Labels: []
   Exists: 1
