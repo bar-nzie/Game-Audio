@@ -4,40 +4,26 @@ using FMOD.Studio;
 
 public class TorchAudio : MonoBehaviour
 {
-    public EventReference torchEvent;
-    public GameObject Player;
+    public string fireCracklingRef;
 
-    private EventInstance torchInstance;
-    public bool isNextToTorch = false;
+    private EventInstance torches;
+    private GameObject player;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        torchInstance = RuntimeManager.CreateInstance(torchEvent);
-        RuntimeManager.AttachInstanceToGameObject(torchInstance, gameObject);
+        torches = RuntimeManager.CreateInstance(fireCracklingRef);
+        player = GameObject.FindGameObjectWithTag("Player");
     }
 
-    // Update is called once per frame
-    void Update()
+    public void OnTriggerEnter(Collider other)
     {
-        
-    }
-
-    public void OnTriggerEnter(){
-
-        isNextToTorch = true;
-
-        if (isNextToTorch == true) {
-
-            torchInstance.start();
-            Debug.Log("Enter range of torch");
-        }
-    }
-
-    public void OnTriggerExit(){
-        
-        isNextToTorch = false;
-        Debug.Log("Exit range of torch");
+        float dist = Vector3.Distance(transform.position, player.transform.position);
+        Debug.Log("Torch Distance from Player:" + dist);
+        dist /= 30;
+        Debug.Log("Torch Distance from Player:" + dist);
+        torches.setParameterByName("TorchDistance", dist);
+        torches.start();
     }
 
 }

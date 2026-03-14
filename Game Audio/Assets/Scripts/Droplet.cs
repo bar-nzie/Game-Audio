@@ -19,9 +19,9 @@ public class Droplet : MonoBehaviour
      private void OnTriggerEnter(Collider other)
     {
         float dist = Vector3.Distance(transform.position, player.transform.position);
-        Debug.Log(dist);
+        //Debug.Log(dist);
         dist /= 30;
-        Debug.Log(dist);
+        //Debug.Log(dist);
         droplet.setParameterByName("Distance", dist);
         droplet.start();
         Destroy(gameObject);

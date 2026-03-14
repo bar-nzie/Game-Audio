@@ -189,8 +189,8 @@ MonoBehaviour:
   Banks:
   - BattleHorn
   - Droplet
+  - FireCrackling
   - FogGate
-  - Torch
   - Whispers
   BanksToLoad: []
   LiveUpdatePort: 9264

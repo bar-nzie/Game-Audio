@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{0cfabeb2-aa1a-4af5-83db-c1edc20dae9f}">
+		<property name="name">
+			<value>TorchDistance</value>
+		</property>
+		<relationship name="folder">
+			<destination>{20202a5d-e5bf-4390-8bd4-5ced3332564e}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{a3ab2086-33b8-4e4a-8390-678676aa7ccb}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{a3ab2086-33b8-4e4a-8390-678676aa7ccb}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
