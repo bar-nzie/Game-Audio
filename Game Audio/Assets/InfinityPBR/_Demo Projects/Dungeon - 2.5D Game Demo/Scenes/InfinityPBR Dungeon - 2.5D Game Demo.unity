@@ -11327,12 +11327,12 @@ PrefabInstance:
     - target: {fileID: 3856832715748553309, guid: 4e8ebce561b864b9082f9c34f98088cd,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.666
+      value: 3.039
       objectReference: {fileID: 0}
     - target: {fileID: 3856832715748553309, guid: 4e8ebce561b864b9082f9c34f98088cd,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 5.68
       objectReference: {fileID: 0}
     - target: {fileID: 3856832715748553309, guid: 4e8ebce561b864b9082f9c34f98088cd,
         type: 3}
@@ -20308,6 +20308,7 @@ GameObject:
   - component: {fileID: 647586151}
   - component: {fileID: 647586153}
   - component: {fileID: 647586154}
+  - component: {fileID: 647586155}
   m_Layer: 0
   m_Name: FMOD Listener
   m_TagString: Untagged
@@ -20423,6 +20424,37 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
+--- !u!114 &647586155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647586150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  EventReference:
+    Guid:
+      Data1: 1503986925
+      Data2: 1163846471
+      Data3: 1286095270
+      Data4: 1087848913
+    Path: event:/Dragon/Dragon_OverHead
+  Event: 
+  EventPlayTrigger: 3
+  EventStopTrigger: 4
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 80
 --- !u!1001 &651295379
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40290,6 +40322,79 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f26596b7606ba4055b7acbf30325e105, type: 3}
+--- !u!1 &1305999425
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1305999428}
+  - component: {fileID: 1305999427}
+  - component: {fileID: 1305999426}
+  m_Layer: 0
+  m_Name: FMOD Dragon Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1305999426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305999425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96f6a10ca4df80b4196919f4d3bf8aa2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dragonFlyoverRef:
+    Guid:
+      Data1: 1503986925
+      Data2: 1163846471
+      Data3: 1286095270
+      Data4: 1087848913
+    Path: event:/Dragon/Dragon_OverHead
+--- !u!65 &1305999427
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305999425}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 5.011942, y: 1, z: 5.465802}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &1305999428
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305999425}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -24.279394, y: 3.62, z: 6.107178}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1307210973
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -68244,3 +68349,4 @@ SceneRoots:
   - {fileID: 1275235262}
   - {fileID: 17811878}
   - {fileID: 811443994}
+  - {fileID: 1305999428}

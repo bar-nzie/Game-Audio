@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{ed83444d-da78-4e7d-81a8-830d34e2cc26}">
+		<property name="name">
+			<value>Flyover</value>
+		</property>
+		<relationship name="folder">
+			<destination>{20202a5d-e5bf-4390-8bd4-5ced3332564e}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{295ccb28-17cd-4210-8e73-1b47ece51360}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{295ccb28-17cd-4210-8e73-1b47ece51360}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

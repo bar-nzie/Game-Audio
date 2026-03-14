@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="Bank" id="{5b270a91-4af8-4825-a180-112d91721578}">
+		<property name="name">
+			<value>Dragon_Flyover</value>
+		</property>
+		<relationship name="folder">
+			<destination>{0ae508c4-70a1-4087-a874-fea246d567c4}</destination>
+		</relationship>
+	</object>
+</objects>
