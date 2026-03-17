@@ -5,6 +5,7 @@ using FMOD.Studio;
 public class UIController : MonoBehaviour
 {
     public GameObject bg;
+    public GameObject options;
 
     public static bool isPaused;
 
@@ -14,7 +15,6 @@ public class UIController : MonoBehaviour
         isPaused = false;
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape)){
@@ -28,7 +28,6 @@ public class UIController : MonoBehaviour
         bg.SetActive(true);
         isPaused = true;
         Time.timeScale = 0f;
-        Debug.Log("Game Paused!");
         FMODUnity.RuntimeManager.PauseAllEvents(true);
     }
 
@@ -36,8 +35,13 @@ public class UIController : MonoBehaviour
     {
         isPaused = false;
         bg.SetActive(false);
+        options.SetActive(false);
         Time.timeScale = 1f;
-        Debug.Log("Game Unpaused");
         FMODUnity.RuntimeManager.PauseAllEvents(false);
+    }
+
+    public void ToggleOptions(){
+
+        options.SetActive(true);
     }
 }
