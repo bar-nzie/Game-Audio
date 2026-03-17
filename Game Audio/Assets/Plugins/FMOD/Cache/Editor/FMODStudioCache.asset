@@ -27,7 +27,31 @@ MonoBehaviour:
   - {fileID: 2337504322761357083}
   MinDistance: 2
   MaxDistance: 20
-  Length: 17749
+  Length: 21856
+--- !u!114 &-9011785978955268552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Dragon_OverHead/Flyover
+  m_EditorClassIdentifier: 
+  Name: Flyover
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 722134710
+    data2: 788416746
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-8813388798407908523
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43,10 +67,10 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639087543802529951
+  lastModified: 639093383620767156
   FileSizes:
   - Name: Desktop
-    Value: 1322
+    Value: 1530
   Exists: 1
 --- !u!114 &-7420159840050614421
 MonoBehaviour:
@@ -63,7 +87,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/FogGate.bank
   Name: FogGate
   StudioPath: bank:/Ambient/FogGate
-  lastModified: 639087512684914836
+  lastModified: 639093400892914967
   FileSizes:
   - Name: Desktop
     Value: 45824
@@ -110,30 +134,10 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Whispers.bank
   Name: Whispers
   StudioPath: bank:/Ambient/Whispers
-  lastModified: 639087489406788270
+  lastModified: 639093400895370603
   FileSizes:
   - Name: Desktop
-    Value: 1225280
-  Exists: 1
---- !u!114 &-4865819059832124281
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Torch.bank
-  m_EditorClassIdentifier: 
-  Path: ../Game Audio FMOD/Build/Desktop/Torch.bank
-  Name: Torch
-  StudioPath: bank:/Torch/Torch
-  lastModified: 639087489409221161
-  FileSizes:
-  - Name: Desktop
-    Value: 239200
+    Value: 661920
   Exists: 1
 --- !u!114 &-3636760774854801160
 MonoBehaviour:
@@ -150,11 +154,39 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/BattleHorn.bank
   Name: BattleHorn
   StudioPath: bank:/Ambient/BattleHorn
-  lastModified: 639087543803907497
+  lastModified: 639093400891816965
   FileSizes:
   - Name: Desktop
     Value: 61056
   Exists: 1
+--- !u!114 &-1681557537475219794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dragon/Dragon_OverHead
+  m_EditorClassIdentifier: 
+  Path: event:/Dragon/Dragon_OverHead
+  Guid:
+    Data1: 1503986925
+    Data2: 1163846471
+    Data3: 1286095270
+    Data4: 1087848913
+  Banks:
+  - {fileID: -369719025731098585}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -9011785978955268552}
+  MinDistance: 1
+  MaxDistance: 80
+  Length: 28901
 --- !u!114 &-1414330568761603865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -184,6 +216,74 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 12277
+--- !u!114 &-481177544865797482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/FireCrackling.bank
+  m_EditorClassIdentifier: 
+  Path: ../Game Audio FMOD/Build/Desktop/FireCrackling.bank
+  Name: FireCrackling
+  StudioPath: bank:/Torch/FireCrackling
+  lastModified: 639093400902343702
+  FileSizes:
+  - Name: Desktop
+    Value: 706496
+  Exists: 1
+--- !u!114 &-476393903536301227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Torches/FireCrackling
+  m_EditorClassIdentifier: 
+  Path: event:/Torches/FireCrackling
+  Guid:
+    Data1: -283787630
+    Data2: 1272894986
+    Data3: -1940403318
+    Data4: 391938859
+  Banks:
+  - {fileID: -481177544865797482}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 4749246041174554521}
+  MinDistance: 2
+  MaxDistance: 20
+  Length: 54624
+--- !u!114 &-369719025731098585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dragon_Flyover.bank
+  m_EditorClassIdentifier: 
+  Path: ../Game Audio FMOD/Build/Desktop/Dragon_Flyover.bank
+  Name: Dragon_Flyover
+  StudioPath: bank:/Dragon/Dragon_Flyover
+  lastModified: 639093400896983591
+  FileSizes:
+  - Name: Desktop
+    Value: 146912
+  Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -200,34 +300,38 @@ MonoBehaviour:
   - {fileID: -8813388798407908523}
   - {fileID: 5588109215525101814}
   - {fileID: -6080971659994598275}
-  - {fileID: -4865819059832124281}
   - {fileID: 4563177006184954106}
   - {fileID: -7420159840050614421}
   - {fileID: -3636760774854801160}
+  - {fileID: -369719025731098585}
+  - {fileID: -481177544865797482}
   EditorEvents:
   - {fileID: -9196877907099755918}
-  - {fileID: 3336427876960010687}
   - {fileID: -6189865598059351498}
   - {fileID: 2790092695215974887}
   - {fileID: -1414330568761603865}
+  - {fileID: -1681557537475219794}
+  - {fileID: -476393903536301227}
   EditorParameters: []
   MasterBanks:
   - {fileID: 5588109215525101814}
   StringsBanks:
   - {fileID: -8813388798407908523}
   cacheVersion: 131858
-  cacheTime: 639087543803907497
+  cacheTime: 639093400902343702
   SerializableEventsDict:
   - key: event:/Ambients/Dungeon_Whispers
     index: 0
-  - key: event:/Torches/Car-on-fire
-    index: 1
   - key: event:/Ambients/Fog Gate
-    index: 2
+    index: 1
   - key: event:/Ambients/Droplet
-    index: 3
+    index: 2
   - key: event:/Ambients/BattleHorn
+    index: 3
+  - key: event:/Dragon/Dragon_OverHead
     index: 4
+  - key: event:/Torches/FireCrackling
+    index: 5
 --- !u!114 &2337504322761357083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -304,33 +408,6 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &3336427876960010687
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Torches/Car-on-fire
-  m_EditorClassIdentifier: 
-  Path: event:/Torches/Car-on-fire
-  Guid:
-    Data1: 724198933
-    Data2: 1122197448
-    Data3: -1555307846
-    Data4: -748065677
-  Banks:
-  - {fileID: -4865819059832124281}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 2
-  MaxDistance: 20
-  Length: 18144
 --- !u!114 &4563177006184954106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -346,10 +423,34 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Droplet.bank
   Name: Droplet
   StudioPath: bank:/Ambient/Droplet
-  lastModified: 639087512685076685
+  lastModified: 639093400892167548
   FileSizes:
   - Name: Desktop
     Value: 9920
+  Exists: 1
+--- !u!114 &4749246041174554521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/FireCrackling/TorchDistance
+  m_EditorClassIdentifier: 
+  Name: TorchDistance
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2130776411
+    data2: 3821167720
+  Type: 0
+  IsGlobal: 0
+  Labels: []
   Exists: 1
 --- !u!114 &5191918746667022697
 MonoBehaviour:
@@ -390,7 +491,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639087543802523446
+  lastModified: 639087468135723115
   FileSizes:
   - Name: Desktop
     Value: 1074

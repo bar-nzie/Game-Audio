@@ -19,9 +19,7 @@ public class TorchAudio : MonoBehaviour
     public void OnTriggerEnter(Collider other)
     {
         float dist = Vector3.Distance(transform.position, player.transform.position);
-        //Debug.Log("Torch Distance from Player:" + dist);
         dist /= 30;
-        //Debug.Log("Torch Distance from Player:" + dist);
         torches.setParameterByName("TorchDistance", dist);
         torches.start();
     }

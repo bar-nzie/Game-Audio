@@ -29,8 +29,10 @@ public class SimpleDemoCharacterMove : MonoBehaviour
   
     void LateUpdate()
     {
-        DoRotation();
-        DoMovement();
+        if(!UIController.isPaused){
+            DoRotation();
+            DoMovement();
+        }
     }
 
     private void DoMovement()

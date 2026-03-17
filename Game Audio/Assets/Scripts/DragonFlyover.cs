@@ -13,7 +13,7 @@ public class DragonFlyover : MonoBehaviour
 
     void Start()
     {
-        Debug.Log("DragonFlyover script started");
+        //Debug.Log("DragonFlyover script started");
 
         dragonFlyover = RuntimeManager.CreateInstance(dragonFlyoverRef);
 
@@ -28,11 +28,11 @@ public class DragonFlyover : MonoBehaviour
 
             dragonFlyover.setParameterByName("Flyover", flyoverValue);
 
-            Debug.Log("Flyover value: " + flyoverValue);
+            //Debug.Log("Flyover value: " + flyoverValue);
 
             if (flyoverValue >= 1f)
             {
-                Debug.Log("Dragon flyover finished");
+                //Debug.Log("Dragon flyover finished");
 
                 dragonFlyover.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
 
