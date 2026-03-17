@@ -30,7 +30,7 @@ public class InteractableExample : MonoBehaviour
         if(canInteract)
         {
             //Check if player has pressed the interact button before calling the interact function
-            if(Input.GetKeyDown(Keycode.E)) Interaction();
+            if(Input.GetKeyDown(KeyCode.E)) Interaction();
         }
     }
 
