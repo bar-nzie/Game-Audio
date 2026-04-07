@@ -67,7 +67,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639099635811219990
+  lastModified: 639111513657577148
   FileSizes:
   - Name: Desktop
     Value: 1644
@@ -87,10 +87,10 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/FogGate.bank
   Name: FogGate
   StudioPath: bank:/Ambient/FogGate
-  lastModified: 639099635813171534
+  lastModified: 639111513662781625
   FileSizes:
   - Name: Desktop
-    Value: 45824
+    Value: 43072
   Exists: 1
 --- !u!114 &-6189865598059351498
 MonoBehaviour:
@@ -118,7 +118,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 4989
+  Length: 3500
 --- !u!114 &-6080971659994598275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -134,10 +134,10 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Whispers.bank
   Name: Whispers
   StudioPath: bank:/Ambient/Whispers
-  lastModified: 639099635815440893
+  lastModified: 639111513667503940
   FileSizes:
   - Name: Desktop
-    Value: 661920
+    Value: 661888
   Exists: 1
 --- !u!114 &-3636760774854801160
 MonoBehaviour:
@@ -154,7 +154,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/BattleHorn.bank
   Name: BattleHorn
   StudioPath: bank:/Ambient/BattleHorn
-  lastModified: 639099635812366479
+  lastModified: 639111513661193569
   FileSizes:
   - Name: Desktop
     Value: 61056
@@ -231,10 +231,10 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/FireCrackling.bank
   Name: FireCrackling
   StudioPath: bank:/Torch/FireCrackling
-  lastModified: 639099635822429940
+  lastModified: 639111513679225646
   FileSizes:
   - Name: Desktop
-    Value: 706496
+    Value: 706560
   Exists: 1
 --- !u!114 &-476393903536301227
 MonoBehaviour:
@@ -279,7 +279,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Dragon_Flyover.bank
   Name: Dragon_Flyover
   StudioPath: bank:/Dragon/Dragon_Flyover
-  lastModified: 639099635817048604
+  lastModified: 639111513670280411
   FileSizes:
   - Name: Desktop
     Value: 146432
@@ -318,7 +318,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -8813388798407908523}
   cacheVersion: 131858
-  cacheTime: 639099635822429940
+  cacheTime: 639111513679225646
   SerializableEventsDict:
   - key: event:/Ambients/Dungeon_Whispers
     index: 0
@@ -423,7 +423,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Droplet.bank
   Name: Droplet
   StudioPath: bank:/Ambient/Droplet
-  lastModified: 639099635812518858
+  lastModified: 639111513661808915
   FileSizes:
   - Name: Desktop
     Value: 9920
@@ -491,7 +491,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639099635811216823
+  lastModified: 639111513657557147
   FileSizes:
   - Name: Desktop
     Value: 1524

@@ -2,15 +2,22 @@
 {424549f8-8b10-426a-943a-ce6b24bed581} bank:/Ambient/Droplet
 {318930e0-aa2a-4942-9973-7b11ddd7d403} bank:/Ambient/FogGate
 {b0a5c74a-900a-4223-9099-8c09f37470cb} bank:/Ambient/Whispers
+{5b270a91-4af8-4825-a180-112d91721578} bank:/Dragon/Dragon_Flyover
 {2679d71f-c297-4ecc-a0e7-95723ac39c1c} bank:/Master
 {be64f7cb-b3ec-028e-26ae-1f8ccb309a84} bank:/Master.strings
-{4e2a744d-6068-4dac-a90e-6391d7ef32ac} bank:/Torch/Torch
+{0f5632bf-0646-482d-ba87-8ff45b7f6e85} bank:/Torch/FireCrackling
 {17654aaa-9800-485f-b6a5-85ab7bdeb1e8} bus:/
+{39616fdc-f7b5-45c1-a602-676f3216e699} bus:/Ambience
+{edd1298d-f5a5-4f13-80c7-d7ee8bbadaa6} bus:/Dialogue
+{f7d3f735-bafe-47c4-8c9f-4cf0c818c02f} bus:/Music
 {829f2838-062e-4e7f-8460-5a84e181cece} bus:/Reverb
 {f598662c-d9ff-4ae5-aa32-d913fc405b83} event:/Ambients/BattleHorn
 {36748fdf-d06c-4ad2-917d-75271681a60c} event:/Ambients/Droplet
 {02f4d4b8-7db5-4ece-b596-f258ee05e683} event:/Ambients/Dungeon_Whispers
 {ebc3183b-99c1-4a9f-aec1-744fd383c16b} event:/Ambients/Fog Gate
-{2b2a6615-5fc8-42e3-bae2-4ba3736c69d3} event:/Torches/Car-on-fire
+{59a504ed-e347-455e-a641-a84cd141d740} event:/Dragon/Dragon_OverHead
+{ef15be92-d60a-4bde-8acb-578c2b835c17} event:/Torches/FireCrackling
 {d093d972-8abc-4794-b0c0-b4692664a8af} parameter:/Distance
 {997fae7c-a349-4f0f-8a9d-03484fd89749} parameter:/FloorLevel
+{295ccb28-17cd-4210-8e73-1b47ece51360} parameter:/Flyover
+{a3ab2086-33b8-4e4a-8390-678676aa7ccb} parameter:/TorchDistance
