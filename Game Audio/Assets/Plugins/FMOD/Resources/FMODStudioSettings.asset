@@ -192,6 +192,7 @@ MonoBehaviour:
   - Droplet
   - FireCrackling
   - FogGate
+  - MetalChains
   - Whispers
   BanksToLoad: []
   LiveUpdatePort: 9264

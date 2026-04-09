@@ -67,10 +67,10 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639111513657577148
+  lastModified: 639113510299082616
   FileSizes:
   - Name: Desktop
-    Value: 1644
+    Value: 1730
   Exists: 1
 --- !u!114 &-7420159840050614421
 MonoBehaviour:
@@ -87,7 +87,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/FogGate.bank
   Name: FogGate
   StudioPath: bank:/Ambient/FogGate
-  lastModified: 639111513662781625
+  lastModified: 639113510301800680
   FileSizes:
   - Name: Desktop
     Value: 43072
@@ -134,10 +134,30 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Whispers.bank
   Name: Whispers
   StudioPath: bank:/Ambient/Whispers
-  lastModified: 639111513667503940
+  lastModified: 639113510302244798
   FileSizes:
   - Name: Desktop
     Value: 661888
+  Exists: 1
+--- !u!114 &-5319500482734395275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/MetalChains.bank
+  m_EditorClassIdentifier: 
+  Path: ../Game Audio FMOD/Build/Desktop/MetalChains.bank
+  Name: MetalChains
+  StudioPath: bank:/Ambient/MetalChains
+  lastModified: 639113510303104721
+  FileSizes:
+  - Name: Desktop
+    Value: 26016
   Exists: 1
 --- !u!114 &-3636760774854801160
 MonoBehaviour:
@@ -154,7 +174,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/BattleHorn.bank
   Name: BattleHorn
   StudioPath: bank:/Ambient/BattleHorn
-  lastModified: 639111513661193569
+  lastModified: 639113510299435280
   FileSizes:
   - Name: Desktop
     Value: 61056
@@ -231,7 +251,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/FireCrackling.bank
   Name: FireCrackling
   StudioPath: bank:/Torch/FireCrackling
-  lastModified: 639111513679225646
+  lastModified: 639113510303732720
   FileSizes:
   - Name: Desktop
     Value: 706560
@@ -279,7 +299,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Dragon_Flyover.bank
   Name: Dragon_Flyover
   StudioPath: bank:/Dragon/Dragon_Flyover
-  lastModified: 639111513670280411
+  lastModified: 639113510303409513
   FileSizes:
   - Name: Desktop
     Value: 146432
@@ -305,6 +325,7 @@ MonoBehaviour:
   - {fileID: -3636760774854801160}
   - {fileID: -369719025731098585}
   - {fileID: -481177544865797482}
+  - {fileID: -5319500482734395275}
   EditorEvents:
   - {fileID: -9196877907099755918}
   - {fileID: -6189865598059351498}
@@ -312,13 +333,14 @@ MonoBehaviour:
   - {fileID: -1414330568761603865}
   - {fileID: -1681557537475219794}
   - {fileID: -476393903536301227}
+  - {fileID: 6803964896544700610}
   EditorParameters: []
   MasterBanks:
   - {fileID: 5588109215525101814}
   StringsBanks:
   - {fileID: -8813388798407908523}
   cacheVersion: 131858
-  cacheTime: 639111513679225646
+  cacheTime: 639113510303732720
   SerializableEventsDict:
   - key: event:/Ambients/Dungeon_Whispers
     index: 0
@@ -332,6 +354,8 @@ MonoBehaviour:
     index: 4
   - key: event:/Torches/FireCrackling
     index: 5
+  - key: event:/Ambients/Chains_Rattle
+    index: 6
 --- !u!114 &2337504322761357083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -423,7 +447,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Droplet.bank
   Name: Droplet
   StudioPath: bank:/Ambient/Droplet
-  lastModified: 639111513661808915
+  lastModified: 639113510299744371
   FileSizes:
   - Name: Desktop
     Value: 9920
@@ -491,11 +515,38 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639111513657557147
+  lastModified: 639113510299057337
   FileSizes:
   - Name: Desktop
     Value: 1524
   Exists: 1
+--- !u!114 &6803964896544700610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambients/Chains_Rattle
+  m_EditorClassIdentifier: 
+  Path: event:/Ambients/Chains_Rattle
+  Guid:
+    Data1: -1041967187
+    Data2: 1191271829
+    Data3: -1138389080
+    Data4: -487355803
+  Banks:
+  - {fileID: -5319500482734395275}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 10
+  Length: 2640
 --- !u!114 &9184249241274845870
 MonoBehaviour:
   m_ObjectHideFlags: 0
