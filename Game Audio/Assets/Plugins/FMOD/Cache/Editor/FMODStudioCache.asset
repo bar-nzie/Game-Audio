@@ -67,10 +67,10 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639117656781391689
+  lastModified: 639117678371824640
   FileSizes:
   - Name: Desktop
-    Value: 1746
+    Value: 1838
   Exists: 1
 --- !u!114 &-7420159840050614421
 MonoBehaviour:
@@ -159,6 +159,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 61056
   Exists: 1
+--- !u!114 &-2282738002580856788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Footsteps Wood
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Footsteps Wood
+  Guid:
+    Data1: 1645597643
+    Data2: 1112863018
+    Data3: 2091398549
+    Data4: -105760640
+  Banks:
+  - {fileID: 589596176954031928}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4375
 --- !u!114 &-1681557537475219794
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -306,6 +333,7 @@ MonoBehaviour:
   - {fileID: -369719025731098585}
   - {fileID: -481177544865797482}
   - {fileID: 586574296713623688}
+  - {fileID: 589596176954031928}
   EditorEvents:
   - {fileID: -9196877907099755918}
   - {fileID: -6189865598059351498}
@@ -314,13 +342,14 @@ MonoBehaviour:
   - {fileID: -1681557537475219794}
   - {fileID: -476393903536301227}
   - {fileID: 8271054137954091255}
+  - {fileID: -2282738002580856788}
   EditorParameters: []
   MasterBanks:
   - {fileID: 5588109215525101814}
   StringsBanks:
   - {fileID: -8813388798407908523}
   cacheVersion: 131858
-  cacheTime: 639117669571827125
+  cacheTime: 639117678372215085
   SerializableEventsDict:
   - key: event:/Ambients/Dungeon_Whispers
     index: 0
@@ -336,6 +365,8 @@ MonoBehaviour:
     index: 5
   - key: event:/Game Music/AUDIO RANDOMISATION
     index: 6
+  - key: event:/New Event
+    index: 7
 --- !u!114 &586574296713623688
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -355,6 +386,26 @@ MonoBehaviour:
   FileSizes:
   - Name: Desktop
     Value: 4913184
+  Exists: 1
+--- !u!114 &589596176954031928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Footsteps.bank
+  m_EditorClassIdentifier: 
+  Path: ../Game Audio FMOD/Build/Desktop/Footsteps.bank
+  Name: Footsteps
+  StudioPath: bank:/Footsteps
+  lastModified: 639117678372215085
+  FileSizes:
+  - Name: Desktop
+    Value: 38976
   Exists: 1
 --- !u!114 &2337504322761357083
 MonoBehaviour:
@@ -515,7 +566,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639117656781384914
+  lastModified: 639117678371819624
   FileSizes:
   - Name: Desktop
     Value: 1524

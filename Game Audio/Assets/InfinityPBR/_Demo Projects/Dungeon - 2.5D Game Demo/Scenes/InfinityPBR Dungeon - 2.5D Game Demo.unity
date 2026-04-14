@@ -20622,6 +20622,7 @@ GameObject:
   - component: {fileID: 647586155}
   - component: {fileID: 647586156}
   - component: {fileID: 647586157}
+  - component: {fileID: 647586158}
   m_Layer: 0
   m_Name: FMOD Listener
   m_TagString: Untagged
@@ -20819,6 +20820,37 @@ MonoBehaviour:
       Data3: 2019218072
       Data4: 837872556
     Path: event:/Game Music/AUDIO RANDOMISATION
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &647586158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647586150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1645597643
+      Data2: 1112863018
+      Data3: 2091398549
+      Data4: -105760640
+    Path: event:/Player/Footsteps Wood
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0

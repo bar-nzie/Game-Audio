@@ -192,6 +192,7 @@ MonoBehaviour:
   - Droplet
   - FireCrackling
   - FogGate
+  - Footsteps
   - PauseMusic
   - Whispers
   BanksToLoad: []

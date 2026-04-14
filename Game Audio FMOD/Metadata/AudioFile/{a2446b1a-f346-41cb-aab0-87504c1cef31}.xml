@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{a2446b1a-f346-41cb-aab0-87504c1cef31}">
+		<property name="assetPath">
+			<value>Footsteps Wood _01.1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>4.3750113378684805</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{6304d7b9-094c-49f1-9aac-2d77bc4e9fe3}</destination>
+		</relationship>
+	</object>
+</objects>
