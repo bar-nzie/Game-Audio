@@ -6,6 +6,11 @@ public class UIController : MonoBehaviour
 {
     public GameObject bg;
     public GameObject options;
+    public Bus ambBus;
+    public Bus musBus;
+
+    public string audioReference;
+    private EventInstance audioInstance;
 
     public static bool isPaused;
 
@@ -13,6 +18,8 @@ public class UIController : MonoBehaviour
     {
         bg.SetActive(false);
         isPaused = false;
+
+        audioInstance = RuntimeManager.CreateInstance(audioReference);
     }
 
     void Update()
@@ -20,6 +27,7 @@ public class UIController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape)){
             
             TogglePause();
+            AudioHandler();
         }
     }
 
@@ -28,7 +36,9 @@ public class UIController : MonoBehaviour
         bg.SetActive(true);
         isPaused = true;
         Time.timeScale = 0f;
-        FMODUnity.RuntimeManager.PauseAllEvents(true);
+        //FMODUnity.RuntimeManager.PauseAllEvents(true);
+        FMODUnity.RuntimeManager.GetBus("bus:/Ambience").setPaused(true);
+        FMODUnity.RuntimeManager.GetBus("bus:/Music").setPaused(false);
     }
 
     public void ResumeGame()
@@ -38,10 +48,19 @@ public class UIController : MonoBehaviour
         options.SetActive(false);
         Time.timeScale = 1f;
         FMODUnity.RuntimeManager.PauseAllEvents(false);
+        FMODUnity.RuntimeManager.GetBus("bus:/Ambience").setPaused(false);
+        FMODUnity.RuntimeManager.GetBus("bus:/Music").setPaused(true);
+
     }
 
     public void ToggleOptions(){
 
         options.SetActive(true);
+    }
+
+    public void AudioHandler(){
+
+        audioInstance.start();
+        Debug.Log("Pause Played");
     }
 }

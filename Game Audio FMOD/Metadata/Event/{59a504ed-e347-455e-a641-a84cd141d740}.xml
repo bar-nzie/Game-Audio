@@ -153,9 +153,6 @@
 		<property name="surroundPanExtent">
 			<value>0</value>
 		</property>
-		<property name="disabledSpeakers">
-			<value>32</value>
-		</property>
 		<relationship name="automators">
 			<destination>{130180ad-ae81-46f9-9091-34c9a6104d89}</destination>
 		</relationship>

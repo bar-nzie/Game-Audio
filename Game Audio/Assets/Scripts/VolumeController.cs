@@ -4,10 +4,10 @@ using FMOD.Studio;
 
 public class VolumeController : MonoBehaviour
 {
-    Bus masterBus;
-    Bus musicBus;
-    Bus ambienceBus;
-    Bus dialogueBus;
+    public Bus masterBus;
+    public Bus musicBus;
+    public Bus ambienceBus;
+    public Bus dialogueBus;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -26,6 +26,7 @@ public class VolumeController : MonoBehaviour
     public void SetMusicVolume(float value)
     {
         musicBus.setVolume(value);
+        
     }
 
     public void SetAmbienceVolume(float value)
