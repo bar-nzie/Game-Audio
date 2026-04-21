@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{19892cb5-3fcc-414e-9da8-8a9b302b26dc}">
 		<property name="assetPath">
-			<value>$foggate.wav</value>
+			<value>FogGate.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
