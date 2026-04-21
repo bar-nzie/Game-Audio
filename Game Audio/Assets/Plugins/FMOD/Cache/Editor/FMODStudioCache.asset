@@ -67,11 +67,38 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639123817986981664
+  lastModified: 639123831886204302
   FileSizes:
   - Name: Desktop
-    Value: 2116
+    Value: 2328
   Exists: 1
+--- !u!114 &-7620191880521163446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Metal Footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/Metal Footsteps
+  Guid:
+    Data1: 1808089750
+    Data2: 1130324682
+    Data3: -489294159
+    Data4: 1167965554
+  Banks:
+  - {fileID: 2935209023290010001}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1500
 --- !u!114 &-7420159840050614421
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -167,6 +194,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 662752
   Exists: 1
+--- !u!114 &-6039422501403379018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Concrete footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/Concrete footsteps
+  Guid:
+    Data1: 927679575
+    Data2: 1327259570
+    Data3: 1267664266
+    Data4: -436971975
+  Banks:
+  - {fileID: -1305112532680744839}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4000
 --- !u!114 &-3636760774854801160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -326,6 +380,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 12277
+--- !u!114 &-1305112532680744839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Concrete Footsteps.bank
+  m_EditorClassIdentifier: 
+  Path: ../Game Audio FMOD/Build/Desktop/Concrete Footsteps.bank
+  Name: Concrete Footsteps
+  StudioPath: bank:/Concrete Footsteps
+  lastModified: 639123831886503363
+  FileSizes:
+  - Name: Desktop
+    Value: 13600
+  Exists: 1
 --- !u!114 &-481177544865797482
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -420,6 +494,8 @@ MonoBehaviour:
   - {fileID: 6847835569251154787}
   - {fileID: 3461465850419039185}
   - {fileID: 2895053938506682608}
+  - {fileID: -1305112532680744839}
+  - {fileID: 2935209023290010001}
   EditorEvents:
   - {fileID: -9196877907099755918}
   - {fileID: -6189865598059351498}
@@ -432,13 +508,15 @@ MonoBehaviour:
   - {fileID: -1528005628270205176}
   - {fileID: -1495366943640266250}
   - {fileID: -6855209631599038679}
+  - {fileID: -6039422501403379018}
+  - {fileID: -7620191880521163446}
   EditorParameters: []
   MasterBanks:
   - {fileID: 5588109215525101814}
   StringsBanks:
   - {fileID: -8813388798407908523}
   cacheVersion: 131858
-  cacheTime: 639123817995177011
+  cacheTime: 639123831886654071
   SerializableEventsDict:
   - key: event:/Ambients/Dungeon_Whispers
     index: 0
@@ -462,6 +540,10 @@ MonoBehaviour:
     index: 9
   - key: event:/Man Behind Door
     index: 10
+  - key: event:/Concrete footsteps
+    index: 11
+  - key: event:/Metal Footsteps
+    index: 12
 --- !u!114 &586574296713623688
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -569,10 +651,30 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/man behind door .bank
   Name: 'man behind door '
   StudioPath: 'bank:/man behind door '
-  lastModified: 639123817994751411
+  lastModified: 639123826762432145
   FileSizes:
   - Name: Desktop
     Value: 896192
+  Exists: 1
+--- !u!114 &2935209023290010001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Metal Footsteps.bank
+  m_EditorClassIdentifier: 
+  Path: ../Game Audio FMOD/Build/Desktop/Metal Footsteps.bank
+  Name: Metal Footsteps
+  StudioPath: bank:/Metal Footsteps
+  lastModified: 639123831886654071
+  FileSizes:
+  - Name: Desktop
+    Value: 20736
   Exists: 1
 --- !u!114 &2973160954641468486
 MonoBehaviour:
@@ -749,7 +851,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639123817986976480
+  lastModified: 639123831886199546
   FileSizes:
   - Name: Desktop
     Value: 1524
