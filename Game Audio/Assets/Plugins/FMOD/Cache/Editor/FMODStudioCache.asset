@@ -67,10 +67,10 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639123805637560978
+  lastModified: 639123817986981664
   FileSizes:
   - Name: Desktop
-    Value: 2014
+    Value: 2116
   Exists: 1
 --- !u!114 &-7420159840050614421
 MonoBehaviour:
@@ -87,11 +87,39 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/FogGate.bank
   Name: FogGate
   StudioPath: bank:/Ambient/FogGate
-  lastModified: 639123800987548056
+  lastModified: 639123817995021882
   FileSizes:
   - Name: Desktop
     Value: 43072
   Exists: 1
+--- !u!114 &-6855209631599038679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Man Behind Door
+  m_EditorClassIdentifier: 
+  Path: event:/Man Behind Door
+  Guid:
+    Data1: 1674560052
+    Data2: 1211232553
+    Data3: 2047660719
+    Data4: 166978260
+  Banks:
+  - {fileID: 2895053938506682608}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 3431835188125604534}
+  MinDistance: 1
+  MaxDistance: 15
+  Length: 77872
 --- !u!114 &-6189865598059351498
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -134,7 +162,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Whispers.bank
   Name: Whispers
   StudioPath: bank:/Ambient/Whispers
-  lastModified: 639123800987701806
+  lastModified: 639123817995177011
   FileSizes:
   - Name: Desktop
     Value: 662752
@@ -391,6 +419,7 @@ MonoBehaviour:
   - {fileID: 589596176954031928}
   - {fileID: 6847835569251154787}
   - {fileID: 3461465850419039185}
+  - {fileID: 2895053938506682608}
   EditorEvents:
   - {fileID: -9196877907099755918}
   - {fileID: -6189865598059351498}
@@ -402,13 +431,14 @@ MonoBehaviour:
   - {fileID: -2282738002580856788}
   - {fileID: -1528005628270205176}
   - {fileID: -1495366943640266250}
+  - {fileID: -6855209631599038679}
   EditorParameters: []
   MasterBanks:
   - {fileID: 5588109215525101814}
   StringsBanks:
   - {fileID: -8813388798407908523}
   cacheVersion: 131858
-  cacheTime: 639123810721406335
+  cacheTime: 639123817995177011
   SerializableEventsDict:
   - key: event:/Ambients/Dungeon_Whispers
     index: 0
@@ -430,6 +460,8 @@ MonoBehaviour:
     index: 8
   - key: event:/Ambients/Rats
     index: 9
+  - key: event:/Man Behind Door
+    index: 10
 --- !u!114 &586574296713623688
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -522,6 +554,26 @@ MonoBehaviour:
   MinDistance: 2
   MaxDistance: 20
   Length: 499
+--- !u!114 &2895053938506682608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/man behind door .bank
+  m_EditorClassIdentifier: 
+  Path: ../Game Audio FMOD/Build/Desktop/man behind door .bank
+  Name: 'man behind door '
+  StudioPath: 'bank:/man behind door '
+  lastModified: 639123817994751411
+  FileSizes:
+  - Name: Desktop
+    Value: 896192
+  Exists: 1
 --- !u!114 &2973160954641468486
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -546,6 +598,30 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &3431835188125604534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Man Behind Door/TorchDistance
+  m_EditorClassIdentifier: 
+  Name: TorchDistance
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2130776411
+    data2: 3821167720
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &3461465850419039185
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -561,7 +637,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Rats.bank
   Name: Rats
   StudioPath: bank:/Rats
-  lastModified: 639123810721271826
+  lastModified: 639123817987339982
   FileSizes:
   - Name: Desktop
     Value: 204512
@@ -605,7 +681,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Droplet.bank
   Name: Droplet
   StudioPath: bank:/Ambient/Droplet
-  lastModified: 639123810721406335
+  lastModified: 639123817994879996
   FileSizes:
   - Name: Desktop
     Value: 9920
@@ -673,7 +749,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639123805637553563
+  lastModified: 639123817986976480
   FileSizes:
   - Name: Desktop
     Value: 1524
@@ -693,7 +769,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Background Music.bank
   Name: Background Music
   StudioPath: bank:/Background Music
-  lastModified: 639123810721079898
+  lastModified: 639123817987174891
   FileSizes:
   - Name: Desktop
     Value: 4913184

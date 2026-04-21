@@ -11435,12 +11435,12 @@ PrefabInstance:
     - target: {fileID: 3856832715748553309, guid: 4e8ebce561b864b9082f9c34f98088cd,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.602
+      value: 3.97
       objectReference: {fileID: 0}
     - target: {fileID: 3856832715748553309, guid: 4e8ebce561b864b9082f9c34f98088cd,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.43
+      value: 6.67
       objectReference: {fileID: 0}
     - target: {fileID: 3856832715748553309, guid: 4e8ebce561b864b9082f9c34f98088cd,
         type: 3}
@@ -11490,6 +11490,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1210390494}
+    - targetCorrespondingSourceObject: {fileID: 3856832715748519485, guid: 4e8ebce561b864b9082f9c34f98088cd,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1210390500}
   m_SourcePrefab: {fileID: 100100000, guid: 4e8ebce561b864b9082f9c34f98088cd, type: 3}
 --- !u!1 &290745263
 GameObject:
@@ -20624,6 +20628,7 @@ GameObject:
   - component: {fileID: 647586157}
   - component: {fileID: 647586158}
   - component: {fileID: 647586159}
+  - component: {fileID: 647586160}
   m_Layer: 0
   m_Name: FMOD Listener
   m_TagString: Untagged
@@ -20883,6 +20888,37 @@ MonoBehaviour:
       Data3: 1051453356
       Data4: 1629093900
     Path: event:/Game Music/Background Music
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &647586160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647586150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -479997767
+      Data2: 1313032094
+      Data3: -625715070
+      Data4: -482385811
+    Path: event:/Ambients/Rats
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0
@@ -38448,6 +38484,29 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4096
   rayDistance: 0.5
+--- !u!114 &1210390500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1210390488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8a7bffd3f4d14e5e905a42f09a907c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ratEvent:
+    Guid:
+      Data1: -479997767
+      Data2: 1313032094
+      Data3: -625715070
+      Data4: -482385811
+    Path: event:/Ambients/Rats
+  floorLayer:
+    serializedVersion: 2
+    m_Bits: 4096
+  rayDistance: 0.5
 --- !u!1 &1215444051
 GameObject:
   m_ObjectHideFlags: 0
@@ -49464,6 +49523,85 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1575272842}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1575376455 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1387115464289649792, guid: 110799c5c22cf4d20b3d0227eff48b1e,
+    type: 3}
+  m_PrefabInstance: {fileID: 2141149354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1575376457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1575376455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9950d2e4cb7e4f169faeecb7c0e84eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manbehindboorRef: event:/Man Behind Door
+  manbehindboorSound:
+    Guid:
+      Data1: 1674560052
+      Data2: 1211232553
+      Data3: 2047660719
+      Data4: 166978260
+    Path: event:/Man Behind Door
+  player: {fileID: 1210390488}
+--- !u!65 &1575376458
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1575376455}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 4.511806, z: 1.8452358}
+  m_Center: {x: 0, y: 0.21747041, z: -0.4226179}
+--- !u!114 &1575376459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1575376455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  EventReference:
+    Guid:
+      Data1: 1674560052
+      Data2: 1211232553
+      Data3: 2047660719
+      Data4: 166978260
+    Path: event:/Man Behind Door
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 15
 --- !u!1001 &1576178540
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -69142,7 +69280,19 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1387115464289649792, guid: 110799c5c22cf4d20b3d0227eff48b1e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1575376459}
+    - targetCorrespondingSourceObject: {fileID: 1387115464289649792, guid: 110799c5c22cf4d20b3d0227eff48b1e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1575376458}
+    - targetCorrespondingSourceObject: {fileID: 1387115464289649792, guid: 110799c5c22cf4d20b3d0227eff48b1e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1575376457}
   m_SourcePrefab: {fileID: 100100000, guid: 110799c5c22cf4d20b3d0227eff48b1e, type: 3}
 --- !u!4 &2141149355 stripped
 Transform:
