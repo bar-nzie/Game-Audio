@@ -67,10 +67,10 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639117678371824640
+  lastModified: 639123784360621909
   FileSizes:
   - Name: Desktop
-    Value: 1838
+    Value: 1944
   Exists: 1
 --- !u!114 &-7420159840050614421
 MonoBehaviour:
@@ -87,7 +87,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/FogGate.bank
   Name: FogGate
   StudioPath: bank:/Ambient/FogGate
-  lastModified: 639117669571506468
+  lastModified: 639123784385529013
   FileSizes:
   - Name: Desktop
     Value: 43072
@@ -134,7 +134,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Whispers.bank
   Name: Whispers
   StudioPath: bank:/Ambient/Whispers
-  lastModified: 639117669571667290
+  lastModified: 639123784387859089
   FileSizes:
   - Name: Desktop
     Value: 661920
@@ -154,7 +154,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/BattleHorn.bank
   Name: BattleHorn
   StudioPath: bank:/Ambient/BattleHorn
-  lastModified: 639117656805827042
+  lastModified: 639123784384673513
   FileSizes:
   - Name: Desktop
     Value: 61056
@@ -214,6 +214,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 80
   Length: 29802
+--- !u!114 &-1528005628270205176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Game Music/Background Music
+  m_EditorClassIdentifier: 
+  Path: event:/Game Music/Background Music
+  Guid:
+    Data1: 509192628
+    Data2: 1227954715
+    Data3: 1051453356
+    Data4: 1629093900
+  Banks:
+  - {fileID: 6847835569251154787}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 227352
 --- !u!114 &-1414330568761603865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -258,7 +285,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/FireCrackling.bank
   Name: FireCrackling
   StudioPath: bank:/Torch/FireCrackling
-  lastModified: 639117669571827125
+  lastModified: 639123784394973657
   FileSizes:
   - Name: Desktop
     Value: 706496
@@ -306,7 +333,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Dragon_Flyover.bank
   Name: Dragon_Flyover
   StudioPath: bank:/Dragon/Dragon_Flyover
-  lastModified: 639117656810332829
+  lastModified: 639123784389519991
   FileSizes:
   - Name: Desktop
     Value: 146432
@@ -334,6 +361,7 @@ MonoBehaviour:
   - {fileID: -481177544865797482}
   - {fileID: 586574296713623688}
   - {fileID: 589596176954031928}
+  - {fileID: 6847835569251154787}
   EditorEvents:
   - {fileID: -9196877907099755918}
   - {fileID: -6189865598059351498}
@@ -343,13 +371,14 @@ MonoBehaviour:
   - {fileID: -476393903536301227}
   - {fileID: 8271054137954091255}
   - {fileID: -2282738002580856788}
+  - {fileID: -1528005628270205176}
   EditorParameters: []
   MasterBanks:
   - {fileID: 5588109215525101814}
   StringsBanks:
   - {fileID: -8813388798407908523}
   cacheVersion: 131858
-  cacheTime: 639117678372215085
+  cacheTime: 639123784394973657
   SerializableEventsDict:
   - key: event:/Ambients/Dungeon_Whispers
     index: 0
@@ -365,7 +394,7 @@ MonoBehaviour:
     index: 5
   - key: event:/Game Music/AUDIO RANDOMISATION
     index: 6
-  - key: event:/New Event
+  - key: event:/Player/Footsteps Wood
     index: 7
 --- !u!114 &586574296713623688
 MonoBehaviour:
@@ -382,7 +411,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/PauseMusic.bank
   Name: PauseMusic
   StudioPath: bank:/PauseMusic
-  lastModified: 639117669571325515
+  lastModified: 639123784383275099
   FileSizes:
   - Name: Desktop
     Value: 4913184
@@ -402,7 +431,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Footsteps.bank
   Name: Footsteps
   StudioPath: bank:/Footsteps
-  lastModified: 639117678372215085
+  lastModified: 639123784360604468
   FileSizes:
   - Name: Desktop
     Value: 38976
@@ -498,7 +527,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Droplet.bank
   Name: Droplet
   StudioPath: bank:/Ambient/Droplet
-  lastModified: 639117656805957466
+  lastModified: 639123784384902363
   FileSizes:
   - Name: Desktop
     Value: 9920
@@ -566,10 +595,30 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639117678371819624
+  lastModified: 639123784360618780
   FileSizes:
   - Name: Desktop
     Value: 1524
+  Exists: 1
+--- !u!114 &6847835569251154787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Background Music.bank
+  m_EditorClassIdentifier: 
+  Path: ../Game Audio FMOD/Build/Desktop/Background Music.bank
+  Name: Background Music
+  StudioPath: bank:/Background Music
+  lastModified: 639123784383457054
+  FileSizes:
+  - Name: Desktop
+    Value: 2794720
   Exists: 1
 --- !u!114 &8271054137954091255
 MonoBehaviour:

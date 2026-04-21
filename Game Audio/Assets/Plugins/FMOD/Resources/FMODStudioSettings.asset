@@ -187,6 +187,7 @@ MonoBehaviour:
   MasterBanks:
   - Master
   Banks:
+  - Background Music
   - BattleHorn
   - Dragon_Flyover
   - Droplet
