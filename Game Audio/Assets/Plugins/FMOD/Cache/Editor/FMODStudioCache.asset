@@ -67,10 +67,10 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639123831886204302
+  lastModified: 639123856661625011
   FileSizes:
   - Name: Desktop
-    Value: 2328
+    Value: 2418
   Exists: 1
 --- !u!114 &-7620191880521163446
 MonoBehaviour:
@@ -241,6 +241,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 61056
   Exists: 1
+--- !u!114 &-3127063675180359379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sword Unsheath
+  m_EditorClassIdentifier: 
+  Path: event:/Sword Unsheath
+  Guid:
+    Data1: 1783973264
+    Data2: 1219939471
+    Data3: -106134886
+    Data4: -245371743
+  Banks:
+  - {fileID: 6713064244785624898}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1486
 --- !u!114 &-2282738002580856788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -496,6 +523,7 @@ MonoBehaviour:
   - {fileID: 2895053938506682608}
   - {fileID: -1305112532680744839}
   - {fileID: 2935209023290010001}
+  - {fileID: 6713064244785624898}
   EditorEvents:
   - {fileID: -9196877907099755918}
   - {fileID: -6189865598059351498}
@@ -510,13 +538,14 @@ MonoBehaviour:
   - {fileID: -6855209631599038679}
   - {fileID: -6039422501403379018}
   - {fileID: -7620191880521163446}
+  - {fileID: -3127063675180359379}
   EditorParameters: []
   MasterBanks:
   - {fileID: 5588109215525101814}
   StringsBanks:
   - {fileID: -8813388798407908523}
   cacheVersion: 131858
-  cacheTime: 639123831886654071
+  cacheTime: 639123856662013375
   SerializableEventsDict:
   - key: event:/Ambients/Dungeon_Whispers
     index: 0
@@ -544,6 +573,8 @@ MonoBehaviour:
     index: 11
   - key: event:/Metal Footsteps
     index: 12
+  - key: event:/Sword Unsheath
+    index: 13
 --- !u!114 &586574296713623688
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -851,10 +882,30 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639123831886199546
+  lastModified: 639123856661617388
   FileSizes:
   - Name: Desktop
     Value: 1524
+  Exists: 1
+--- !u!114 &6713064244785624898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Sword Unsheath.bank
+  m_EditorClassIdentifier: 
+  Path: ../Game Audio FMOD/Build/Desktop/Sword Unsheath.bank
+  Name: Sword Unsheath
+  StudioPath: bank:/Sword Unsheath
+  lastModified: 639123856662013375
+  FileSizes:
+  - Name: Desktop
+    Value: 10048
   Exists: 1
 --- !u!114 &6847835569251154787
 MonoBehaviour:

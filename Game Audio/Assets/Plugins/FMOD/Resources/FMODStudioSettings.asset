@@ -199,6 +199,7 @@ MonoBehaviour:
   - Metal Footsteps
   - PauseMusic
   - Rats
+  - Sword Unsheath
   - Whispers
   BanksToLoad: []
   LiveUpdatePort: 9264
