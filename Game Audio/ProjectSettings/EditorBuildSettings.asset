@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/InfinityPBR/_Demo Projects/Dungeon - 2.5D Game Demo/Scenes/Main
+      Menu.unity
+    guid: 9a4b5d7434822470291642550aa3a77b
+  - enabled: 1
+    path: Assets/InfinityPBR/_Demo Projects/Dungeon - 2.5D Game Demo/Scenes/InfinityPBR
+      Dungeon - 2.5D Game Demo.unity
+    guid: 11470cbd2ee430a4083f57e792e49658
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0

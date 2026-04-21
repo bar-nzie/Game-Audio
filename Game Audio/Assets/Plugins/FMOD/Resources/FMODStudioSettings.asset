@@ -189,12 +189,14 @@ MonoBehaviour:
   Banks:
   - Background Music
   - BattleHorn
+  - Concrete Footsteps
   - Dragon_Flyover
   - Droplet
   - FireCrackling
   - FogGate
   - Footsteps
   - 'man behind door '
+  - Metal Footsteps
   - PauseMusic
   - Rats
   - Whispers

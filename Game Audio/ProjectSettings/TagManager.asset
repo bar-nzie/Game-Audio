@@ -10,6 +10,8 @@ TagManager:
   - Water
   - Stair
   - Floor1
+  - Metal
+  - Concrete
   layers:
   - Default
   - TransparentFX
