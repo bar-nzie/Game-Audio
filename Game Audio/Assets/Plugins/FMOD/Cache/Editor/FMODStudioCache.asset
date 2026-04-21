@@ -67,10 +67,10 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639123856661625011
+  lastModified: 639123863753001899
   FileSizes:
   - Name: Desktop
-    Value: 2418
+    Value: 2520
   Exists: 1
 --- !u!114 &-7620191880521163446
 MonoBehaviour:
@@ -475,6 +475,26 @@ MonoBehaviour:
   MinDistance: 2
   MaxDistance: 20
   Length: 54624
+--- !u!114 &-374548301253062769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Chainmail.bank
+  m_EditorClassIdentifier: 
+  Path: ../Game Audio FMOD/Build/Desktop/Chainmail.bank
+  Name: Chainmail
+  StudioPath: bank:/Chainmail
+  lastModified: 639123863753304496
+  FileSizes:
+  - Name: Desktop
+    Value: 46432
+  Exists: 1
 --- !u!114 &-369719025731098585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -524,6 +544,7 @@ MonoBehaviour:
   - {fileID: -1305112532680744839}
   - {fileID: 2935209023290010001}
   - {fileID: 6713064244785624898}
+  - {fileID: -374548301253062769}
   EditorEvents:
   - {fileID: -9196877907099755918}
   - {fileID: -6189865598059351498}
@@ -539,13 +560,14 @@ MonoBehaviour:
   - {fileID: -6039422501403379018}
   - {fileID: -7620191880521163446}
   - {fileID: -3127063675180359379}
+  - {fileID: 5323566065072495346}
   EditorParameters: []
   MasterBanks:
   - {fileID: 5588109215525101814}
   StringsBanks:
   - {fileID: -8813388798407908523}
   cacheVersion: 131858
-  cacheTime: 639123856662013375
+  cacheTime: 639123863753304496
   SerializableEventsDict:
   - key: event:/Ambients/Dungeon_Whispers
     index: 0
@@ -867,6 +889,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &5323566065072495346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Chainmail
+  m_EditorClassIdentifier: 
+  Path: event:/Chainmail
+  Guid:
+    Data1: 535344922
+    Data2: 1292607644
+    Data3: -833786707
+    Data4: -2024497405
+  Banks:
+  - {fileID: -374548301253062769}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3020
 --- !u!114 &5588109215525101814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -882,7 +931,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639123856661617388
+  lastModified: 639123863752995930
   FileSizes:
   - Name: Desktop
     Value: 1524

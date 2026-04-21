@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{425e2355-a852-4046-8be3-f5467c3d2c5a}">
+		<property name="assetPath">
+			<value>Chainmail/Chainmail Moving.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.0296825396825398</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{6304d7b9-094c-49f1-9aac-2d77bc4e9fe3}</destination>
+		</relationship>
+	</object>
+</objects>

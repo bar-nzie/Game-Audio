@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using FMODUnity;
+using FMOD.Studio;
 
 public class SimpleDemoCharacterMove : MonoBehaviour
 {
@@ -15,6 +17,8 @@ public class SimpleDemoCharacterMove : MonoBehaviour
     public Animator animator;
     public string animatorLocomotion = "Locomotion";
     private bool useRootMotion;
+
+    public EventReference chainmailSound;
 
     void Awake()
     { 
