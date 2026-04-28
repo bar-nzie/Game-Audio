@@ -122,7 +122,7 @@
 			<value>21.856666666666666</value>
 		</property>
 		<property name="spawnRate">
-			<value>6</value>
+			<value>10</value>
 		</property>
 		<relationship name="sound">
 			<destination>{da625b9f-8b34-4486-a5c6-95e0d30e4adc}</destination>
@@ -130,7 +130,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{ee290d13-d363-47c1-8f9d-3027e1927e45}">
 		<property name="volume">
-			<value>-2</value>
+			<value>1</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>

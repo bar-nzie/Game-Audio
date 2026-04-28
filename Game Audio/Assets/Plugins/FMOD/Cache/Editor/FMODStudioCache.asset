@@ -67,7 +67,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639123863753001899
+  lastModified: 639129694405507548
   FileSizes:
   - Name: Desktop
     Value: 2520
@@ -114,7 +114,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/FogGate.bank
   Name: FogGate
   StudioPath: bank:/Ambient/FogGate
-  lastModified: 639123817995021882
+  lastModified: 639129711885781010
   FileSizes:
   - Name: Desktop
     Value: 43072
@@ -189,7 +189,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Whispers.bank
   Name: Whispers
   StudioPath: bank:/Ambient/Whispers
-  lastModified: 639123817995177011
+  lastModified: 639129719386604608
   FileSizes:
   - Name: Desktop
     Value: 662752
@@ -236,7 +236,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/BattleHorn.bank
   Name: BattleHorn
   StudioPath: bank:/Ambient/BattleHorn
-  lastModified: 639123784384673513
+  lastModified: 639129719386450648
   FileSizes:
   - Name: Desktop
     Value: 61056
@@ -422,7 +422,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Concrete Footsteps.bank
   Name: Concrete Footsteps
   StudioPath: bank:/Concrete Footsteps
-  lastModified: 639123831886503363
+  lastModified: 639129715535454077
   FileSizes:
   - Name: Desktop
     Value: 13600
@@ -442,7 +442,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/FireCrackling.bank
   Name: FireCrackling
   StudioPath: bank:/Torch/FireCrackling
-  lastModified: 639123784394973657
+  lastModified: 639129711895029900
   FileSizes:
   - Name: Desktop
     Value: 706496
@@ -490,7 +490,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Chainmail.bank
   Name: Chainmail
   StudioPath: bank:/Chainmail
-  lastModified: 639123863753304496
+  lastModified: 639129711861407544
   FileSizes:
   - Name: Desktop
     Value: 46432
@@ -510,7 +510,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Dragon_Flyover.bank
   Name: Dragon_Flyover
   StudioPath: bank:/Dragon/Dragon_Flyover
-  lastModified: 639123784389519991
+  lastModified: 639129711889690040
   FileSizes:
   - Name: Desktop
     Value: 146432
@@ -567,7 +567,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -8813388798407908523}
   cacheVersion: 131858
-  cacheTime: 639123863753304496
+  cacheTime: 639129719386604608
   SerializableEventsDict:
   - key: event:/Ambients/Dungeon_Whispers
     index: 0
@@ -597,6 +597,8 @@ MonoBehaviour:
     index: 12
   - key: event:/Sword Unsheath
     index: 13
+  - key: event:/Chainmail
+    index: 14
 --- !u!114 &586574296713623688
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -612,7 +614,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/PauseMusic.bank
   Name: PauseMusic
   StudioPath: bank:/PauseMusic
-  lastModified: 639123800987032122
+  lastModified: 639129713906652792
   FileSizes:
   - Name: Desktop
     Value: 1751424
@@ -632,10 +634,10 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Footsteps.bank
   Name: Footsteps
   StudioPath: bank:/Footsteps
-  lastModified: 639123784360604468
+  lastModified: 639129719385973029
   FileSizes:
   - Name: Desktop
-    Value: 38976
+    Value: 39200
   Exists: 1
 --- !u!114 &2337504322761357083
 MonoBehaviour:
@@ -704,7 +706,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/man behind door .bank
   Name: 'man behind door '
   StudioPath: 'bank:/man behind door '
-  lastModified: 639123826762432145
+  lastModified: 639129719386131799
   FileSizes:
   - Name: Desktop
     Value: 896192
@@ -724,10 +726,10 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Metal Footsteps.bank
   Name: Metal Footsteps
   StudioPath: bank:/Metal Footsteps
-  lastModified: 639123831886654071
+  lastModified: 639129719386290943
   FileSizes:
   - Name: Desktop
-    Value: 20736
+    Value: 20992
   Exists: 1
 --- !u!114 &2973160954641468486
 MonoBehaviour:
@@ -792,7 +794,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Rats.bank
   Name: Rats
   StudioPath: bank:/Rats
-  lastModified: 639123817987339982
+  lastModified: 639129711883643464
   FileSizes:
   - Name: Desktop
     Value: 204512
@@ -836,7 +838,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Droplet.bank
   Name: Droplet
   StudioPath: bank:/Ambient/Droplet
-  lastModified: 639123817994879996
+  lastModified: 639129711885211757
   FileSizes:
   - Name: Desktop
     Value: 9920
@@ -931,7 +933,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639123863752995930
+  lastModified: 639129694405506323
   FileSizes:
   - Name: Desktop
     Value: 1524
@@ -951,7 +953,7 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Sword Unsheath.bank
   Name: Sword Unsheath
   StudioPath: bank:/Sword Unsheath
-  lastModified: 639123856662013375
+  lastModified: 639129711883913868
   FileSizes:
   - Name: Desktop
     Value: 10048
@@ -971,10 +973,10 @@ MonoBehaviour:
   Path: ../Game Audio FMOD/Build/Desktop/Background Music.bank
   Name: Background Music
   StudioPath: bank:/Background Music
-  lastModified: 639123817987174891
+  lastModified: 639129713613190365
   FileSizes:
   - Name: Desktop
-    Value: 4913184
+    Value: 4913344
   Exists: 1
 --- !u!114 &8271054137954091255
 MonoBehaviour:
