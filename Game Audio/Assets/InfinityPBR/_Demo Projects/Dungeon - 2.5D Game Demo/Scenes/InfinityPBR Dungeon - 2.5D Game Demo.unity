@@ -15664,6 +15664,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1433595202}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 31148c59e55ddb749a24b24c22f48d34,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1433595205}
   m_SourcePrefab: {fileID: 100100000, guid: 31148c59e55ddb749a24b24c22f48d34, type: 3}
 --- !u!1 &421480104
 GameObject:
@@ -20663,7 +20667,6 @@ GameObject:
   - component: {fileID: 647586153}
   - component: {fileID: 647586154}
   - component: {fileID: 647586155}
-  - component: {fileID: 647586156}
   - component: {fileID: 647586157}
   - component: {fileID: 647586158}
   - component: {fileID: 647586159}
@@ -20814,37 +20817,6 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 80
---- !u!114 &647586156
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 647586150}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: Player
-  EventReference:
-    Guid:
-      Data1: -1041967187
-      Data2: 1191271829
-      Data3: -1138389080
-      Data4: -487355803
-    Path: event:/Ambients/Chains_Rattle
-  Event: 
-  EventPlayTrigger: 3
-  EventStopTrigger: 4
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 10
 --- !u!114 &647586157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44096,6 +44068,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1806915280}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 31148c59e55ddb749a24b24c22f48d34,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1806915283}
   m_SourcePrefab: {fileID: 100100000, guid: 31148c59e55ddb749a24b24c22f48d34, type: 3}
 --- !u!1001 &1416847787
 PrefabInstance:
@@ -44645,14 +44621,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c93a71d750b4f84e8e803834f84e79e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chainRef: event:/Ambients/Chains_Rattle
+  chainRef: event:/Chainmail
   chainSound:
     Guid:
-      Data1: -1041967187
-      Data2: 1191271829
-      Data3: -1138389080
-      Data4: -487355803
-    Path: event:/Ambients/Chains_Rattle
+      Data1: 535344922
+      Data2: 1292607644
+      Data3: -833786707
+      Data4: -2024497405
+    Path: event:/Chainmail
+  player: {fileID: 1210390488}
 --- !u!65 &1433595203
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -44674,6 +44651,37 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.4716778, y: 2.3764963, z: 1.9653101}
   m_Center: {x: 0.23583929, y: 1.1891167, z: 0.057347536}
+--- !u!114 &1433595205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433595201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 535344922
+      Data2: 1292607644
+      Data3: -833786707
+      Data4: -2024497405
+    Path: event:/Chainmail
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1437883724
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -58648,14 +58656,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c93a71d750b4f84e8e803834f84e79e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chainRef: event:/Ambients/Chains_Rattle
+  chainRef: event:/Chainmail
   chainSound:
     Guid:
-      Data1: -1041967187
-      Data2: 1191271829
-      Data3: -1138389080
-      Data4: -487355803
-    Path: event:/Ambients/Chains_Rattle
+      Data1: 535344922
+      Data2: 1292607644
+      Data3: -833786707
+      Data4: -2024497405
+    Path: event:/Chainmail
+  player: {fileID: 1210390488}
 --- !u!65 &1806915281
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -58677,6 +58686,37 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.4716778, y: 2.3764963, z: 1.9653101}
   m_Center: {x: 0.23583929, y: 1.1891167, z: 0.057347536}
+--- !u!114 &1806915283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1806915279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  EventReference:
+    Guid:
+      Data1: 535344922
+      Data2: 1292607644
+      Data3: -833786707
+      Data4: -2024497405
+    Path: event:/Chainmail
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1807107473
 GameObject:
   m_ObjectHideFlags: 0

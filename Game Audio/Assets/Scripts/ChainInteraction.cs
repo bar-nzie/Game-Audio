@@ -1,20 +1,28 @@
-using UnityEngine;
+using FMOD.Studio;
 using FMODUnity;
+using UnityEngine;
 
 public class ChainInteraction : MonoBehaviour
 {
-    public string chainRef;
-
     public EventReference chainSound;
 
+    private EventInstance chainInstance;
+
     private bool playerInRange = false;
+
+    void Start()
+    {
+        chainInstance = RuntimeManager.CreateInstance(chainSound);
+        RuntimeManager.AttachInstanceToGameObject(chainInstance, gameObject);
+    }
 
     void Update()
     {
         if (playerInRange && Input.GetKeyDown(KeyCode.E))
         {
-            Debug.Log("E pressed - Playing chain sound");
-            RuntimeManager.PlayOneShot(chainSound, transform.position);
+            Debug.Log("E pressed - Starting chain scatterer");
+
+            chainInstance.start();
         }
     }
 
@@ -33,6 +41,12 @@ public class ChainInteraction : MonoBehaviour
         {
             playerInRange = false;
             Debug.Log("Player left chain trigger");
+            chainInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
         }
+    }
+
+    void OnDestroy()
+    {
+        chainInstance.release();
     }
 }
