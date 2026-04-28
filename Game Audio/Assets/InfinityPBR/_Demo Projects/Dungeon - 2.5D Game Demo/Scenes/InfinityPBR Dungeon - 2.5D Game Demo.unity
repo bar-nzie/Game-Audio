@@ -11435,7 +11435,7 @@ PrefabInstance:
     - target: {fileID: 3856832715748553309, guid: 4e8ebce561b864b9082f9c34f98088cd,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.97
+      value: 4.36
       objectReference: {fileID: 0}
     - target: {fileID: 3856832715748553309, guid: 4e8ebce561b864b9082f9c34f98088cd,
         type: 3}
@@ -35516,6 +35516,51 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1066804160}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1068820137
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1068820139}
+  - component: {fileID: 1068820138}
+  m_Layer: 0
+  m_Name: Rock Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1068820138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1068820137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dfbdeabdc400c149947a28d6daa64c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rocks: {fileID: 7731225106318569034, guid: 8cadfe2984972cf4d905dec80b3cadf7, type: 3}
+--- !u!4 &1068820139
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1068820137}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.79, y: 16.22, z: 10.76}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1068998458 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7223299224809072093, guid: 52a1f9bf760c94408802884fee8f5e5b,
@@ -44621,7 +44666,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c93a71d750b4f84e8e803834f84e79e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chainRef: event:/Chainmail
   chainSound:
     Guid:
       Data1: 535344922
@@ -44629,7 +44673,6 @@ MonoBehaviour:
       Data3: -833786707
       Data4: -2024497405
     Path: event:/Chainmail
-  player: {fileID: 1210390488}
 --- !u!65 &1433595203
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -58656,7 +58699,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c93a71d750b4f84e8e803834f84e79e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chainRef: event:/Chainmail
   chainSound:
     Guid:
       Data1: 535344922
@@ -58664,7 +58706,6 @@ MonoBehaviour:
       Data3: -833786707
       Data4: -2024497405
     Path: event:/Chainmail
-  player: {fileID: 1210390488}
 --- !u!65 &1806915281
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -70197,6 +70238,7 @@ SceneRoots:
   - {fileID: 1864013103}
   - {fileID: 647586152}
   - {fileID: 1679102348}
+  - {fileID: 1068820139}
   - {fileID: 1275235262}
   - {fileID: 17811878}
   - {fileID: 811443994}
