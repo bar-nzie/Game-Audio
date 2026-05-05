@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EncodableAsset" id="{a3529955-2b81-4f20-b904-90295cd55079}">
+		<property name="assetPath">
+			<value>Droplet/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{6304d7b9-094c-49f1-9aac-2d77bc4e9fe3}</destination>
+		</relationship>
+	</object>
+</objects>

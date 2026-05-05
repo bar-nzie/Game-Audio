@@ -1,6 +1,7 @@
 using UnityEngine;
 using FMODUnity;
 using FMOD.Studio;
+using static UnityEditor.ShaderGraph.Internal.KeywordDependentCollection;
 
 public class UIController : MonoBehaviour
 {
@@ -12,6 +13,10 @@ public class UIController : MonoBehaviour
     public string audioReference;
     private EventInstance audioInstance;
 
+    public EventReference BGEvent;
+
+    private EventInstance BGInstance;
+
     public static bool isPaused;
 
     void Start()
@@ -20,6 +25,9 @@ public class UIController : MonoBehaviour
         isPaused = false;
 
         audioInstance = RuntimeManager.CreateInstance(audioReference);
+        BGInstance = RuntimeManager.CreateInstance(BGEvent);
+
+        BGInstance.start();
     }
 
     void Update()
@@ -38,7 +46,8 @@ public class UIController : MonoBehaviour
         Time.timeScale = 0f;
         //FMODUnity.RuntimeManager.PauseAllEvents(true);
         FMODUnity.RuntimeManager.GetBus("bus:/Ambience").setPaused(true);
-        FMODUnity.RuntimeManager.GetBus("bus:/Music").setPaused(false);
+        audioInstance.start();
+        BGInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
     }
 
     public void ResumeGame()
@@ -49,8 +58,8 @@ public class UIController : MonoBehaviour
         Time.timeScale = 1f;
         FMODUnity.RuntimeManager.PauseAllEvents(false);
         FMODUnity.RuntimeManager.GetBus("bus:/Ambience").setPaused(false);
-        FMODUnity.RuntimeManager.GetBus("bus:/Music").setPaused(true);
-
+        audioInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+        BGInstance.start();
     }
 
     public void ToggleOptions(){

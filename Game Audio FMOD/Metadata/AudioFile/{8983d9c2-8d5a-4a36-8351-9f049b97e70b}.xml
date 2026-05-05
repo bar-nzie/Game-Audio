@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{8983d9c2-8d5a-4a36-8351-9f049b97e70b}">
 		<property name="assetPath">
-			<value>droplet.wav</value>
+			<value>Droplet/droplet.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
