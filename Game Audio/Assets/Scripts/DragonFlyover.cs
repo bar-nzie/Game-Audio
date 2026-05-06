@@ -5,55 +5,62 @@ using FMOD.Studio;
 public class DragonFlyover : MonoBehaviour
 {
     public EventReference dragonFlyoverRef;
+    public Transform startPoint;
+    public Transform endPoint;
+    public float flyDuration = 5f;
 
     private EventInstance dragonFlyover;
-
-    private float flyoverValue = 0f;
     private bool dragonActive = false;
+    private float timer = 0f;
 
     void Start()
     {
-        //Debug.Log("DragonFlyover script started");
-
         dragonFlyover = RuntimeManager.CreateInstance(dragonFlyoverRef);
-
         RuntimeManager.AttachInstanceToGameObject(dragonFlyover, gameObject);
+
+        Debug.Log("Dragon FMOD instance created");
     }
 
     void Update()
     {
-        if (dragonActive)
+        if (!dragonActive) return;
+
+        timer += Time.deltaTime;
+        float t = Mathf.Clamp01(timer / flyDuration);
+
+        transform.position = Vector3.Lerp(startPoint.position, endPoint.position, t);
+
+        RuntimeManager.AttachInstanceToGameObject(dragonFlyover, gameObject);
+
+        Debug.DrawLine(startPoint.position, endPoint.position, Color.cyan);
+        Debug.Log("Dragon position: " + transform.position + " | Progress: " + t);
+
+        if (t >= 1f)
         {
-            flyoverValue += Time.deltaTime * 0.3f;
-
-            dragonFlyover.setParameterByName("Flyover", flyoverValue);
-
-            //Debug.Log("Flyover value: " + flyoverValue);
-
-            if (flyoverValue >= 1f)
-            {
-                //Debug.Log("Dragon flyover finished");
-
-                dragonFlyover.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
-
-                dragonActive = false;
-            }
+            dragonFlyover.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+            dragonActive = false;
+            Debug.Log("Dragon flyover finished");
         }
     }
 
     void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Something entered trigger: " + other.name);
-
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") && !dragonActive)
         {
-            Debug.Log("Player entered dragon trigger!");
-
-            flyoverValue = 0f;
+            timer = 0f;
+            transform.position = startPoint.position;
 
             dragonFlyover.start();
-
             dragonActive = true;
+
+            Debug.Log("Dragon flyover started");
+            Debug.Log("Start point: " + startPoint.position);
+            Debug.Log("End point: " + endPoint.position);
         }
+    }
+
+    void OnDestroy()
+    {
+        dragonFlyover.release();
     }
 }
