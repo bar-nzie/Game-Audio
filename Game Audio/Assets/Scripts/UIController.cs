@@ -1,7 +1,6 @@
 using UnityEngine;
 using FMODUnity;
 using FMOD.Studio;
-using static UnityEditor.ShaderGraph.Internal.KeywordDependentCollection;
 
 public class UIController : MonoBehaviour
 {
